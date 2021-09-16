@@ -1,0 +1,26 @@
+:root {
+  --dakota-yellow: #ffbd59;
+  --dakota-gray: #545454;
+  --dakota-blue: #207cdb;
+}
+
+.nav-logo {
+  height: 100px;
+  width: auto;
+}
+
+.bg-dark-new {
+  background-color: var(--dakota-blue);
+  font-size: 20px;
+  font-family: "Arvo", serif;
+  color: #fff !important;
+}
+
+.nav-link {
+  color: #fff !important;
+  margin: 5px;
+}
+
+.nav-link:hover {
+  color: var(--dakota-yellow) !important;
+}

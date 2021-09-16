@@ -1,0 +1,25 @@
+:root {
+  --dakota-yellow: #ffbd59;
+  --dakota-gray: #545454;
+  --dakota-blue: #207cdb;
+}
+
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Arvo", serif;
+  color: var(--dakota-gray);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

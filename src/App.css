@@ -1,0 +1,9 @@
+:root {
+  --dakota-yellow: #ffbd59;
+  --dakota-gray: #545454;
+  --dakota-blue: #207cdb;
+}
+
+.App {
+  text-align: center;
+}

@@ -1,0 +1,12 @@
+:root {
+  --dakota-yellow: #ffbd59;
+  --dakota-gray: #545454;
+  --dakota-blue: #207cdb;
+}
+
+footer {
+  background-color: var(--dakota-gray);
+  font-size: 12px;
+  font-family: "Arvo", serif;
+  color: #fff !important;
+}
