@@ -17,6 +17,37 @@ h5,
 h6 {
   font-family: "Arvo", serif;
   color: var(--dakota-gray);
+  margin-bottom: 15px;
+}
+
+button {
+  border: 3px solid var(--dakota-yellow);
+  padding: 10px 20px;
+  background-color: var(--dakota-yellow);
+  color: #fff;
+  font-size: 20px;
+  border-radius: 10px;
+  transition: all 220ms ease-in-out;
+}
+
+button:hover {
+  border: 3px solid var(--dakota-blue);
+  background: #fff;
+  color: var(--dakota-blue);
+}
+
+p {
+  font-size: 18px;
+}
+
+a {
+  color: var(--dakota-blue);
+  text-decoration: none;
+  transition: all 200ms ease-in;
+}
+
+a:hover {
+  color: var(--dakota-yellow);
 }
 
 code {

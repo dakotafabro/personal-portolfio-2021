@@ -5,7 +5,7 @@ import "./Navigation.css";
 function Navigation(props) {
   return (
     <div className="navigation">
-      <nav class="navbar navbar-expand navbar-dark bg-dark-new">
+      <nav class="navbar navbar-expand navbar-dark bg-dark-new shadow">
         <div class="container">
           <Link class="navbar-brand" to="/">
             <img
@@ -13,6 +13,7 @@ function Navigation(props) {
               src="/images/df-2021-logo.png"
               alt="Dakota Fabro logo"
             />
+            Dakota Fabro
           </Link>
 
           <div>
