@@ -1,0 +1,4 @@
+.email-link:hover {
+  color: var(--dakota-yellow);
+  cursor: pointer;
+}

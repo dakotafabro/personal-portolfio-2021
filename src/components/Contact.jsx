@@ -1,25 +1,44 @@
-import React from "react";
+import React, { useState } from "react";
+import { CopyToClipboard } from "react-copy-to-clipboard";
+import "./Contact.css";
 
 function Contact() {
+  const [email, setEmail] = useState("dakotafabrocgu@gmail.com");
+
+  const copyEmail = () => {
+    setEmail("dakotafabrocgu@gmail.com");
+    alert("Email copied. I look forward to hearing from you! 🧑🏽‍💻");
+  };
+
   return (
-    <div className="about">
-      <div class="container">
-        <div class="row align-items-center my-5">
-          <div class="col-lg-7">
-            <img
-              class="img-fluid rounded mb-4 mb-lg-0"
-              src="http://placehold.it/900x400"
-              alt=""
-            />
-          </div>
-          <div class="col-lg-5">
-            <h1 class="font-weight-light">Contact</h1>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
-            </p>
+    <div className="contact">
+      <div className="container">
+        <div className="align-items-center my-3">
+          <div className="col-sm-12">
+            <div className="contact-info text-center">
+              <img
+                className="mb-2"
+                src="/images/df-2021-logo.png"
+                alt="Dakota Fabro logo"
+              />
+
+              <h1>Contact</h1>
+              <p>
+                <i class="fas fa-envelope"></i>
+                <br />
+                <CopyToClipboard text={email}>
+                  <span className="email-link" onClick={copyEmail}>
+                    dakotafabrocgu@gmail.com
+                  </span>
+                </CopyToClipboard>
+                <br />
+                <br />
+                <i class="fas fa-mobile"></i> /{" "}
+                <i class="fas fa-comment-alt"></i>
+                <br />
+                <a href="tel:+1-909-276-7301">(909) 276-7301</a>
+              </p>
+            </div>
           </div>
         </div>
       </div>
