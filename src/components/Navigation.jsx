@@ -36,15 +36,6 @@ function Navigation(props) {
                   <i class="fas fa-address-card"></i>
                 </Link>
               </li>
-              <li
-                class={`nav-item  ${
-                  props.location.pathname === "/contact" ? "active-new" : ""
-                }`}
-              >
-                <Link class="nav-link" to="/contact" title="Contact">
-                  <i class="fas fa-envelope"></i>
-                </Link>
-              </li>
 
               <li
                 class={`nav-item  ${
@@ -53,6 +44,16 @@ function Navigation(props) {
               >
                 <Link class="nav-link" to="/work" title="Work">
                   <i class="fas fa-briefcase"></i>
+                </Link>
+              </li>
+
+              <li
+                class={`nav-item  ${
+                  props.location.pathname === "/contact" ? "active-new" : ""
+                }`}
+              >
+                <Link class="nav-link" to="/contact" title="Contact">
+                  <i class="fas fa-envelope"></i>
                 </Link>
               </li>
 
