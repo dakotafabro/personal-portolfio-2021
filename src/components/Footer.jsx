@@ -4,7 +4,7 @@ import "./Footer.css";
 function Footer() {
   return (
     <div className="footer">
-      <footer class="py-1 fixed-bottom">
+      <footer class="fixed-bottom">
         <div class="container">
           <p class="m-0 text-center text-white">
             <span className="d-flex flex-row justify-content-center m-0">

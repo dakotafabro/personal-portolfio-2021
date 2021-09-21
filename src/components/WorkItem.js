@@ -20,7 +20,16 @@ const WorkItem = ({ work }) => {
                 {work.description}
                 <br />
                 <br />
-                <button>{work.buttonText}</button>
+                <button>
+                  <a
+                    className="work-button"
+                    href={work.buttonLink}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {work.buttonText}
+                  </a>
+                </button>
               </p>
             </div>
           </>

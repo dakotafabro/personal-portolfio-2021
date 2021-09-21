@@ -11,6 +11,7 @@ function Work() {
         "This dictionary utilizes Pexel's extraordinary photo API along with Free Dictionary's API to create a fully functional dictionary search engine.",
       image: "/images/dictionary.png",
       buttonText: "See Dictionary App",
+      buttonLink: "https://dfabro-dictionary-react-app.netlify.app/",
     },
     {
       id: "workitem2",
@@ -19,6 +20,7 @@ function Work() {
         "As I move into the education tech world, I am trying my hand at creating apps that would be useful in the classroom--specifically to learn more about the inner workings of useful app features. In addition to Dark Mode toggling capabilities, this app utilizes local storage to create a fully functional note-taking app.",
       image: "/images/note-app-photo.png",
       buttonText: "Take Notes Here",
+      buttonLink: "https://note-taking-app-dakotafabro.netlify.app/",
     },
     {
       id: "workitem3",
@@ -27,6 +29,7 @@ function Work() {
         "This most recent project that pays homage to my first coding project below. Weather App built with ReactJS, Bootstrap, and API Integration.",
       image: "/images/weather-react-photo.png",
       buttonText: "Check The Weather",
+      buttonLink: "https://dfabro-react-weather-app-new.netlify.app/",
     },
     {
       id: "workitem4",
@@ -35,6 +38,7 @@ function Work() {
         "This project was one of my earliest front-end projects. Project built with HTML, CSS, Vanilla JS, Bootstrap, and API Integration.",
       image: "/images/weatherapp-photo.jpg",
       buttonText: "Check The Weather",
+      buttonLink: "https://weather-app-dfabro-shecodes.netlify.app/",
     },
     {
       id: "workitem5",
@@ -43,6 +47,7 @@ function Work() {
         "My first experience with coding was building games using C# and Unity. Hup-Hup was my first multi-level game that used complex C# scripts. Project was built using C#, Unity, and Visual Studio Code.",
       image: "/images/hup-hup-2.jpg",
       buttonText: "Play Hup-Hup on Desktop",
+      buttonLink: "https://sharemygame.com/@WhiteCrane22/hup-hup",
     },
   ];
 
@@ -50,7 +55,7 @@ function Work() {
     <div className="work near-top">
       <div className="container">
         <div className="row align-items-center my-5">
-          <h1 className="font-weight-light text-center">Work</h1>
+          <h1 className="font-weight-light text-center">Projects</h1>
           <WorkItem className="work-item" work={workExperience} />
         </div>
       </div>

@@ -42,7 +42,7 @@ function Navigation(props) {
                   props.location.pathname === "/work" ? "active-new" : ""
                 }`}
               >
-                <Link class="nav-link" to="/work" title="Work">
+                <Link class="nav-link" to="/work" title="Projects">
                   <i class="fas fa-briefcase"></i>
                 </Link>
               </li>

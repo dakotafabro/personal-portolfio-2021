@@ -10,3 +10,15 @@ img.work {
 .work-item:hover {
   background-color: var(--dakota-blue, 0.7);
 }
+
+a.work-button {
+  color: #fff;
+  text-decoration: none;
+  transition: all 200ms ease-in;
+}
+
+a.work-button:hover {
+  color: var(--dakota-blue);
+  text-decoration: none;
+  transition: all 200ms ease-in;
+}
