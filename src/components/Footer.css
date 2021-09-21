@@ -6,7 +6,7 @@
 
 footer {
   background-color: var(--dakota-gray);
-  font-size: 12px;
+  font-size: 10px !important;
   font-family: "Arvo", serif;
   color: #fff !important;
 }
