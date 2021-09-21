@@ -28,6 +28,7 @@ button {
   font-size: 20px;
   border-radius: 10px;
   transition: all 220ms ease-in-out;
+  margin: 0px auto;
 }
 
 button:hover {

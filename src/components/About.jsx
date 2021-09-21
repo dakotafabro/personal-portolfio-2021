@@ -1,25 +1,55 @@
 import React from "react";
+import "./About.css";
 
 function About() {
   return (
     <div className="about">
-      <div class="container">
-        <div class="row align-items-center my-5">
-          <div class="col-lg-7">
+      <div className="container">
+        <div className="row align-items-center my-5">
+          <h1 className="font-weight-light text-center">About</h1>
+          <div className="col-lg-5">
             <img
-              class="img-fluid rounded mb-4 mb-lg-0"
-              src="http://placehold.it/900x400"
+              className="img-fluid shadow mb-4 mb-lg-0"
+              src="/images/lightbulb-photo.jpg"
               alt=""
             />
           </div>
-          <div class="col-lg-5">
-            <h1 class="font-weight-light">About</h1>
+
+          <div className="col-lg-7">
+            <h2 className="text-start">Professional History</h2>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+              I've worn many hats. From freelance photographer, to educator, to
+              front-end developer--The common thread has always been following
+              the small sparks of creativity, the desire to streamline
+              processes, and the desire to make things better.
+              <br />
+              <br />
+              <button>See Resume</button>
             </p>
+          </div>
+
+          <div className="row align-items-center my-5 near-footer">
+            <div className="col-lg-7">
+              <h2 className="text-end">Next Steps</h2>
+              <p className="text-end">
+                I have transitioned from the elementary classroom toward the
+                tech industry in order to make education more equitable and
+                accessible. Through the use of responsive and effective
+                front-end development, the classroom can be truly transformed to
+                respond to the ways students learn today.
+                <br />
+                <br />
+                <button>Let's Connect</button>
+              </p>
+            </div>
+
+            <div className="col-lg-5">
+              <img
+                className="img-fluid shadow mb-4 mb-lg-0"
+                src="/images/planning-photo.jpg"
+                alt=""
+              />
+            </div>
           </div>
         </div>
       </div>
