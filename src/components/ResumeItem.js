@@ -11,7 +11,7 @@ const ResumeItem = ({ resumeItems, informalEd, professionalAffiliations }) => {
               <div className="col-sm-3">
                 <div className="d-flex flex-column align-items-center">
                   <img
-                    className="resume-photo"
+                    className="resume-photo mb-2"
                     src={resume.logo}
                     alt={resume.title}
                   />

@@ -6,3 +6,13 @@ img {
 .near-footer {
   margin-bottom: 140px !important;
 }
+
+img.education-photo {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+img.professional-photo {
+  max-width: 150px;
+  max-height: 200px;
+}

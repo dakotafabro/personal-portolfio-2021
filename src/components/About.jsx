@@ -1,7 +1,8 @@
 import React from "react";
 import "./About.css";
 import ResumeItem from "./ResumeItem";
-import FormalEd from "./FormalEd";
+import Education from "./Education";
+import ProfessionalAffiliations from "./ProfessionalAffiliations";
 
 function About() {
   const resumeItems = [
@@ -105,6 +106,7 @@ function About() {
     {
       course: "React Development",
       org: "SheCodes Workshops",
+      logo: "/images/shecodes-logo.png",
       date: "03/2021 - 05/2021",
       skills: [
         "Web Developement (HTML, CSS, Javasript, ReactJS",
@@ -117,18 +119,21 @@ function About() {
     {
       course: "User Experience (UX): The Ultimate Guide to Usability and UX",
       org: "Udemy",
+      logo: "/images/udemy-logo.png",
       date: "1/2021",
       skills: ["Mapping User Journeys", "Field Data Collection"],
     },
     {
       course: "User Experience (UX): The Ultimate Guide to Usability and UX",
       org: "Udemy",
+      logo: "/images/udemy-logo.png",
       date: "1/2021",
       skills: ["Mapping User Journeys", "Field Data Collection"],
     },
     {
       course: "The Complete App Design Course - UX, UI, and Design Thinking",
       org: "Udemy",
+      logo: "/images/udemy-logo.png",
       date: "3/2020",
       skills: ["UX/UI Design", "Creating Working Prototypes"],
     },
@@ -138,18 +143,21 @@ function About() {
     {
       title: "Google Certified Educator - Level 2",
       date: "10/2019",
+      logo: "/images/google-level-2.png",
       org: "Google for Education",
       location: "Palo Alto, CA",
     },
     {
       title: "Cooperative Culture - Committee Chair",
       date: "8/2019",
+      logo: "/images/iempire.jpeg",
       org: "iEmpire Academy",
       location: "San Bernardino, CA",
     },
     {
       title: "ITOC Fellow",
       date: "6/2019",
+      logo: "/images/itoc-logo.jpeg",
       org: "Institute for Teachers of Color Committed to Racial Justice",
       location: "Riverside, CA",
     },
@@ -162,13 +170,13 @@ function About() {
           <h1 className="font-weight-light text-center">About</h1>
           <h2 className="text-start">Professional Journey</h2>
 
-          <ResumeItem
-            resumeItems={resumeItems}
-            informalEd={informalEd}
+          <ResumeItem resumeItems={resumeItems} />
+
+          <Education formalEd={formalEd} informalEd={informalEd} />
+
+          <ProfessionalAffiliations
             professionalAffiliations={professionalAffiliations}
           />
-
-          <FormalEd formalEd={formalEd} />
 
           <div className="row align-items-center my-5 near-footer">
             <div className="col-sm-5">
