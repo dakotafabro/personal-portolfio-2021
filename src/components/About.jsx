@@ -3,11 +3,11 @@ import "./About.css";
 
 function About() {
   return (
-    <div className="about">
+    <div className="about near-top">
       <div className="container">
         <div className="row align-items-center my-5">
           <h1 className="font-weight-light text-center">About</h1>
-          <div className="col-lg-5">
+          <div className="col-sm-5">
             <img
               className="img-fluid shadow mb-4 mb-lg-0"
               src="/images/lightbulb-photo.jpg"
@@ -15,7 +15,7 @@ function About() {
             />
           </div>
 
-          <div className="col-lg-7">
+          <div className="col-sm-7">
             <h2 className="text-start">Professional History</h2>
             <p>
               I've worn many hats. From freelance photographer, to educator, to
@@ -29,7 +29,7 @@ function About() {
           </div>
 
           <div className="row align-items-center my-5 near-footer">
-            <div className="col-lg-7">
+            <div className="col-sm-7">
               <h2 className="text-end">Next Steps</h2>
               <p className="text-end">
                 I have transitioned from the elementary classroom toward the
@@ -43,7 +43,7 @@ function About() {
               </p>
             </div>
 
-            <div className="col-lg-5">
+            <div className="col-sm-5">
               <img
                 className="img-fluid shadow mb-4 mb-lg-0"
                 src="/images/planning-photo.jpg"

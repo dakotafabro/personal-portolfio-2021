@@ -5,7 +5,7 @@ import "./Navigation.css";
 function Navigation(props) {
   return (
     <div className="navigation">
-      <nav class="navbar navbar-expand navbar-dark bg-dark-new shadow">
+      <nav class="navbar navbar-expand navbar-dark bg-dark-new shadow fixed-top">
         <div class="container">
           <Link class="navbar-brand" to="/">
             <img

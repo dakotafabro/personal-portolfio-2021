@@ -4,3 +4,7 @@ img.headshot {
   min-height: 300px;
   border: solid 3px #fff;
 }
+
+.near-top {
+  margin-top: 125px !important;
+}

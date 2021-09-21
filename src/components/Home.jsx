@@ -3,10 +3,34 @@ import "./Home.css";
 import { Link, withRouter } from "react-router-dom";
 
 function Home() {
+  const homePageInfo = [
+    {
+      id: "home1",
+      title: "Google Certified Educator",
+      description:
+        "As a Google Certified Educator, I was able to design engaging learning curriculum in order to teach students 21st century technology skills. By doing so, students were empowered to see the internet and current technology as a tool for innovation rather than a place to consume and play. Students were able to broaden their worldviews while taking ownership of their own learning.",
+      button: "See Teaching Portfolio",
+    },
+    {
+      id: "home2",
+      title: "UX/UI & Front-End Development",
+      description:
+        "As a classroom educator, I always found myself asking 'How can this app/web-based learning tool be more effective for the students using it?'. I then took the initiative to teach myself how to code in order to move toward being able to be on the other side of the learning tools being used in the classroom. In just months, I now have the skills needed to create responsive web-based applications and seek to apply these skills to effectively improve classroom instruction.",
+      button: "See Front-End Portfolio",
+    },
+    {
+      id: "home3",
+      title: "EDU + Front-End Development",
+      description:
+        "I occupy a unique space in that I know what teachers want first-hand because I was one. I know what assessment data teachers want to see and how they want to use that data. I know what students want out of learning tools. They want to be engaged, challenged, and have fun--without the hassle of user interface confusion. As the landscape of education evolves, so too should our tech.",
+      button: "Read More",
+    },
+  ];
+
   return (
-    <div className="home">
+    <div className="home near-top">
       <div class="container">
-        <div class="row align-items-center mt-4 mb-5">
+        <div class="row align-items-center mb-5">
           <div class="col-sm-5">
             <img
               class="img-fluid headshot shadow m-3"
@@ -47,6 +71,22 @@ function Home() {
               </Link>
             </p>
           </div>
+        </div>
+
+        <div className="row align-items-top mb-5 near-footer">
+          {homePageInfo.map((homePage) => {
+            return (
+              <div key={homePage.id} className="col-sm-4 p-2">
+                <h2>{homePage.title}</h2>
+                <p>
+                  {homePage.description}
+                  <br />
+                  <br />
+                  <button>{homePage.button}</button>
+                </p>
+              </div>
+            );
+          })}
         </div>
       </div>
     </div>

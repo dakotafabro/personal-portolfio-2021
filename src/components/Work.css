@@ -1,0 +1,12 @@
+img.work {
+  border-radius: 20px !important;
+  padding: 10px !important;
+}
+
+.work {
+  margin-bottom: 150px !important;
+}
+
+.work-item:hover {
+  background-color: var(--dakota-blue, 0.7);
+}

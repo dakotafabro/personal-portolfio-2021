@@ -7,11 +7,13 @@ function Contact() {
 
   const copyEmail = () => {
     setEmail("dakotafabrocgu@gmail.com");
-    alert("Email copied. I look forward to hearing from you! 🧑🏽‍💻");
+    alert(
+      "Email copied to clipboard. I look forward to hearing from you! 🧑🏽‍💻"
+    );
   };
 
   return (
-    <div className="contact">
+    <div className="contact near-top">
       <div className="container">
         <div className="align-items-center my-3">
           <div className="col-sm-12">
