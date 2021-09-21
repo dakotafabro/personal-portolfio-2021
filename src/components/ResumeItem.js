@@ -17,8 +17,12 @@ const ResumeItem = ({ resumeItems, informalEd, professionalAffiliations }) => {
                   />
 
                   <h5>{resume.title}</h5>
-                  <h6 className="text-center">{resume.org}</h6>
-                  <h6 className="text-center">{resume.location}</h6>
+                  <h6 className="text-center">
+                    <small>{resume.org}</small>
+                  </h6>
+                  <h6 className="text-center">
+                    <small>{resume.location}</small>
+                  </h6>
                   <h6 className="mb-3">{resume.date}</h6>
                 </div>
               </div>

@@ -3,7 +3,7 @@ import React from "react";
 const Education = ({ formalEd, informalEd }) => {
   return (
     <>
-      <div className="formal-education mt-3">
+      <div className="formal-education mt-4">
         <h2>Formal Education</h2>
         {formalEd.map((formal) => {
           return (
@@ -23,7 +23,9 @@ const Education = ({ formalEd, informalEd }) => {
                   {formal.degree} - {formal.date}
                 </h5>
                 <h6>
-                  {formal.org} - {formal.location}
+                  <small>
+                    {formal.org} - {formal.location}
+                  </small>
                 </h6>
                 <h6>
                   <strong>Thesis:</strong> <em>{formal.thesis}</em>
@@ -34,7 +36,7 @@ const Education = ({ formalEd, informalEd }) => {
         })}
       </div>
 
-      <div className="informal-education mt-3">
+      <div className="informal-education mt-4">
         <h2>Self-Guided Education</h2>
         {informalEd.map((informal) => {
           return (
@@ -53,10 +55,10 @@ const Education = ({ formalEd, informalEd }) => {
                 <h5>
                   {informal.course} - {informal.date}
                 </h5>
-                <h6>{informal.org}</h6>
                 <h6>
-                  <strong>Skills Gained</strong>
+                  <small>{informal.org}</small>
                 </h6>
+                <h6>Skills Gained</h6>
 
                 <ul>
                   {informal.skills.map((skill) => {

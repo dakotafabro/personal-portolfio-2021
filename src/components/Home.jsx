@@ -5,11 +5,11 @@ import { Link, withRouter } from "react-router-dom";
 function Home() {
   const homePageInfo = [
     {
-      id: "home1",
-      title: "Google Certified Educator",
+      id: "home3",
+      title: "EDU + Front-End Development",
       description:
-        "As a Google Certified Educator, I was able to design engaging learning curriculum in order to teach students 21st century technology skills. By doing so, students were empowered to see the internet and current technology as a tool for innovation rather than a place to consume and play. Students were able to broaden their worldviews while taking ownership of their own learning.",
-      button: "See Teaching Portfolio",
+        "I occupy a unique space in that I know what teachers want first-hand because I used to be one. I know what assessment data teachers might want to see and how they might want to use that data. I know what students want out of learning tools. They want to be engaged, challenged, and have fun--without the hassle of user interface confusion. As the landscape of education evolves, so too should our tech.",
+      button: "See About Me",
     },
     {
       id: "home2",
@@ -19,11 +19,12 @@ function Home() {
       button: "See Front-End Portfolio",
     },
     {
-      id: "home3",
-      title: "EDU + Front-End Development",
+      id: "home1",
+      title: "Google Certified Educator",
       description:
-        "I occupy a unique space in that I know what teachers want first-hand because I was one. I know what assessment data teachers want to see and how they want to use that data. I know what students want out of learning tools. They want to be engaged, challenged, and have fun--without the hassle of user interface confusion. As the landscape of education evolves, so too should our tech.",
-      button: "Read More",
+        "As a Google Certified Educator, I was able to design engaging learning curriculum in order to teach students 21st century technology skills. By doing so, students were empowered to see the internet and current technology as a tool for innovation rather than a place to consume and play. Students were able to broaden their worldviews while taking ownership of their own learning.",
+      button: "See Teaching Portfolio",
+      link: "https://fabrofotip2020.weebly.com/",
     },
   ];
 
@@ -82,7 +83,9 @@ function Home() {
                   {homePage.description}
                   <br />
                   <br />
-                  <button>{homePage.button}</button>
+                  <a href={homePage.link} target="_blank" rel="noreferrer">
+                    <button>{homePage.button}</button>
+                  </a>
                 </p>
               </div>
             );

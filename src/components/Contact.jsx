@@ -25,6 +25,7 @@ function Contact() {
               />
 
               <h1>Contact</h1>
+
               <p>
                 <i class="fas fa-envelope"></i>
                 <br />

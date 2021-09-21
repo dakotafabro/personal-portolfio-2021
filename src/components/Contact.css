@@ -2,3 +2,7 @@
   color: var(--dakota-yellow);
   cursor: pointer;
 }
+
+.contact {
+  margin-bottom: 140px !important;
+}

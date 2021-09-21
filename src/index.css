@@ -25,10 +25,11 @@ button {
   padding: 2px 15px;
   background-color: var(--dakota-yellow);
   color: #fff;
-  font-size: 20px;
+  font-size: 18px;
   border-radius: 10px;
   transition: all 220ms ease-in-out;
   margin: 0px auto;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 
 button:hover {

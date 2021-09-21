@@ -3,6 +3,7 @@ import "./About.css";
 import ResumeItem from "./ResumeItem";
 import Education from "./Education";
 import ProfessionalAffiliations from "./ProfessionalAffiliations";
+import { Link, withRouter } from "react-router-dom";
 
 function About() {
   const resumeItems = [
@@ -109,7 +110,7 @@ function About() {
       logo: "/images/shecodes-logo.png",
       date: "03/2021 - 05/2021",
       skills: [
-        "Web Developement (HTML, CSS, Javasript, ReactJS",
+        "Web Development (HTML, CSS, Javasript, ReactJS)",
         "Bootstrap",
         "SEO",
         "Hosting",
@@ -141,6 +142,13 @@ function About() {
 
   const professionalAffiliations = [
     {
+      title: "AWBW Facilitator",
+      date: "7/2021",
+      logo: "/images/awbw-logo.png",
+      org: "A Window Between Worlds",
+      location: "Venice, CA",
+    },
+    {
       title: "Google Certified Educator - Level 2",
       date: "10/2019",
       logo: "/images/google-level-2.png",
@@ -168,7 +176,7 @@ function About() {
       <div className="container">
         <div className="row align-items-center my-5">
           <h1 className="font-weight-light text-center">About</h1>
-          <h2 className="text-start">Professional Journey</h2>
+          <h2 className="text-start">Professional Experience</h2>
 
           <ResumeItem resumeItems={resumeItems} />
 
@@ -192,13 +200,17 @@ function About() {
               <p className="text-start">
                 I have transitioned from the elementary classroom toward the
                 tech industry in order to make educational resources more
-                equitable and accessible. Through the use of responsive and
-                effective front-end development, the educational organizations
-                can be truly transformed to respond to the ways their students
-                learn.
+                equitable and accessible.
                 <br />
                 <br />
-                <button>Let's Connect</button>
+                Through the use of responsive and effective front-end
+                development, the educational organizations can be truly
+                transformed to respond to the ways their students learn.
+                <br />
+                <br />
+                <Link to="/contact" title="Contact">
+                  <button>Let's Connect</button>
+                </Link>
               </p>
             </div>
           </div>
@@ -208,4 +220,4 @@ function About() {
   );
 }
 
-export default About;
+export default withRouter(About);

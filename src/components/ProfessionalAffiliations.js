@@ -3,7 +3,7 @@ import React from "react";
 const ProfessionalAffiliations = ({ professionalAffiliations }) => {
   return (
     <>
-      <div className="Professional-Affiliations mt-3">
+      <div className="Professional-Affiliations mt-4">
         <h2>Professional Affiliations</h2>
         {professionalAffiliations.map((affiliation) => {
           return (

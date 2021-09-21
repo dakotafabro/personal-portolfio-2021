@@ -4,7 +4,7 @@ img {
 }
 
 .near-footer {
-  margin-bottom: 140px !important;
+  margin-bottom: 120px !important;
 }
 
 img.education-photo {
@@ -15,4 +15,8 @@ img.education-photo {
 img.professional-photo {
   max-width: 150px;
   max-height: 200px;
+}
+
+.about {
+  padding: 0px 10px;
 }
