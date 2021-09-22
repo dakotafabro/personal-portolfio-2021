@@ -1,8 +1,17 @@
 .email-link:hover {
-  color: var(--dakota-yellow);
+  color: var(--dakota-blue);
   cursor: pointer;
 }
 
 .contact {
   margin-bottom: 140px !important;
+}
+
+.phone-link {
+  color: #fff;
+}
+
+.phone-link:hover {
+  color: var(--dakota-blue);
+  cursor: pointer;
 }

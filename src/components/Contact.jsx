@@ -27,19 +27,23 @@ function Contact() {
               <h1>Contact</h1>
 
               <p>
-                <i class="fas fa-envelope"></i>
+                <i class="far fa-envelope"></i>
                 <br />
                 <CopyToClipboard text={email}>
-                  <span className="email-link" onClick={copyEmail}>
+                  <button className="email-link" onClick={copyEmail}>
                     dakotafabrocgu@gmail.com
-                  </span>
+                  </button>
                 </CopyToClipboard>
                 <br />
                 <br />
-                <i class="fas fa-mobile"></i> /{" "}
-                <i class="fas fa-comment-alt"></i>
+                <i class="fas fa-mobile-alt"></i> /{" "}
+                <i class="far fa-comment-alt"></i>
                 <br />
-                <a href="tel:+1-909-276-7301">(909) 276-7301</a>
+                <button className="email-link">
+                  <a className="phone-link" href="tel:+1-909-276-7301">
+                    (909) 276-7301
+                  </a>
+                </button>
               </p>
             </div>
           </div>

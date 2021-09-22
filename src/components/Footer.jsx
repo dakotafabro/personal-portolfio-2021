@@ -3,11 +3,11 @@ import "./Footer.css";
 
 function Footer() {
   return (
-    <div className="footer">
+    <>
       <footer class="fixed-bottom">
         <div class="container">
-          <p class="m-0 text-center text-white">
-            <span className="d-flex flex-row justify-content-center m-0">
+          <p class="text-center text-white footer-content">
+            <span className="d-flex flex-row justify-content-center">
               <a
                 class="nav-link d-flex justify-content-center"
                 href="https://www.instagram.com/kodingkoda/"
@@ -46,7 +46,7 @@ function Footer() {
           </p>
         </div>
       </footer>
-    </div>
+    </>
   );
 }
 

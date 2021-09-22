@@ -6,7 +6,19 @@
 
 footer {
   background-color: var(--dakota-gray);
-  font-size: 10px !important;
   font-family: "Arvo", serif;
   color: #fff !important;
+}
+
+p.footer-content {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 576px) {
+  p.footer-content {
+    font-size: 10px !important;
+    padding: 0px 0px 0px 0px;
+    margin-bottom: 5px;
+  }
 }
