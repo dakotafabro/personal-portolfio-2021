@@ -6,7 +6,7 @@ const WorkItem = ({ work }) => {
     <>
       {work.map((work) => {
         return (
-          <>
+          <div className="work-item mb-3">
             <div id={work.id} className="col-sm-5">
               <img
                 className="img-fluid mb-4 shadow"
@@ -32,7 +32,7 @@ const WorkItem = ({ work }) => {
                 </button>
               </p>
             </div>
-          </>
+          </div>
         );
       })}
     </>

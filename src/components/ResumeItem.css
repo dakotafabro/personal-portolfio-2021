@@ -8,3 +8,9 @@ img.resume-photo {
   padding: 20px 10px;
   border-radius: 20px;
 }
+
+@media (max-width: 576px) {
+  h2.resume-item {
+    text-align: center;
+  }
+}

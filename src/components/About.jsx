@@ -176,7 +176,7 @@ function About() {
       <div className="container">
         <div className="row align-items-center my-5">
           <h1 className="font-weight-light text-center">About</h1>
-          <h2 className="text-start">Professional Experience</h2>
+          <h2>Professional Experience</h2>
 
           <ResumeItem resumeItems={resumeItems} />
 

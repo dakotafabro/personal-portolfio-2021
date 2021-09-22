@@ -20,3 +20,9 @@ img.professional-photo {
 .about {
   padding: 0px 10px;
 }
+
+@media (max-width: 576px) {
+  h2 {
+    text-align: center;
+  }
+}

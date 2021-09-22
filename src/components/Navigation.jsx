@@ -7,7 +7,7 @@ function Navigation(props) {
     <div className="navigation">
       <nav className="navbar navbar-expand navbar-dark bg-dark-new shadow fixed-top">
         <div className="container">
-          <Link className="navbar-brand" to="/">
+          <Link className="navbar-brand navbar-link-and-logo" to="/">
             <img
               className="nav-logo"
               src="/images/df-2021-logo.png"

@@ -1,7 +1,7 @@
 import React from "react";
 import "./ResumeItem.css";
 
-const ResumeItem = ({ resumeItems, informalEd, professionalAffiliations }) => {
+const ResumeItem = ({ resumeItems }) => {
   return (
     <>
       <div className="ResumeItem">

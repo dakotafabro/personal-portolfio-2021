@@ -32,7 +32,7 @@ function Home() {
     <div className="home near-top">
       <div class="container">
         <div class="row align-items-center mb-5">
-          <div class="col-sm-5">
+          <div class="col-sm-5 headshot-container">
             <img
               class="img-fluid headshot shadow"
               src="/images/headshot1.jpg"

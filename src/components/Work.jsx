@@ -17,7 +17,7 @@ function Work() {
       id: "workitem2",
       title: "Note Taking Application - ReactJS",
       description:
-        "As I move into the education tech world, I am trying my hand at creating apps that would be useful in the classroom--specifically to learn more about the inner workings of useful app features. In addition to Dark Mode toggling capabilities, this app utilizes local storage to create a fully functional note-taking app.",
+        "In addition to Dark Mode toggling capabilities, this app utilizes local storage to create a fully functional note-taking app.",
       image: "/images/note-app-photo.png",
       buttonText: "Take Notes Here",
       buttonLink: "https://note-taking-app-dakotafabro.netlify.app/",
@@ -55,7 +55,7 @@ function Work() {
     <div className="work near-top">
       <div className="container">
         <div className="row align-items-center my-5">
-          <h1 className="font-weight-light text-center">Projects</h1>
+          <h1 className="font-weight-light text-center mb-3">Projects</h1>
           <WorkItem className="work-item" work={workExperience} />
         </div>
       </div>
