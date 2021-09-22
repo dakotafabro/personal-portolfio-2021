@@ -9,6 +9,7 @@ import {
   Work,
   Blog,
 } from "./components";
+
 function App() {
   return (
     <div className="App">
