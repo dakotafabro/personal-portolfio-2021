@@ -34,7 +34,7 @@ function About() {
       title: "K8 Educator",
       org: "Allegiance STEAM Academy & iEmpire Academy",
       logo: "/images/asa-iemp-logo.png",
-      date: "08/2018 to 06/2021",
+      date: "2018 to 2021",
       current: false,
       location: "Chino, CA / San Bernardino, CA",
       skills: [
@@ -56,7 +56,7 @@ function About() {
       title: "Photographer",
       org: "Dakota Cheyenne Photography",
       logo: "/images/dcp-logo.png",
-      date: "01/2015 to Present",
+      date: "2015 to Present",
       current: true,
       location: "Claremont, CA",
       skills: [
@@ -81,7 +81,7 @@ function About() {
       org: "Claremont Graduate University",
       logo: "images/cgu-logo.png",
       location: "Claremont, CA",
-      date: "07/2019",
+      date: "2019",
       thesis: "From Self-Doubt To Inner Peace: An Ethnographic Narrative",
     },
     {
@@ -89,7 +89,7 @@ function About() {
       org: "Claremont School of Theology",
       logo: "images/cst-logo.jpeg",
       location: "Claremont, CA",
-      date: "05/2016",
+      date: "2016",
       thesis:
         "Resolving Problematic Interdisciplinary Implications in Western Psychology Through Reform in Data Collection",
     },
@@ -98,7 +98,7 @@ function About() {
       org: "Azusa Pacific University University",
       logo: "images/apu-logo.png",
       location: "Claremont, CA",
-      date: "07/2019",
+      date: "2014",
       thesis: "From Self-Doubt To Inner Peace: An Ethnographic Narrative",
     },
   ];
@@ -108,7 +108,7 @@ function About() {
       course: "React Development",
       org: "SheCodes Workshops",
       logo: "/images/shecodes-logo.png",
-      date: "03/2021 - 05/2021",
+      date: "2021",
       skills: [
         "Web Development (HTML, CSS, Javasript, ReactJS)",
         "Bootstrap",
@@ -121,21 +121,21 @@ function About() {
       course: "User Experience (UX): The Ultimate Guide to Usability and UX",
       org: "Udemy",
       logo: "/images/udemy-logo.png",
-      date: "1/2021",
+      date: "2021",
       skills: ["Mapping User Journeys", "Field Data Collection"],
     },
     {
       course: "User Experience (UX): The Ultimate Guide to Usability and UX",
       org: "Udemy",
       logo: "/images/udemy-logo.png",
-      date: "1/2021",
+      date: "2021",
       skills: ["Mapping User Journeys", "Field Data Collection"],
     },
     {
       course: "The Complete App Design Course - UX, UI, and Design Thinking",
       org: "Udemy",
       logo: "/images/udemy-logo.png",
-      date: "3/2020",
+      date: "2020",
       skills: ["UX/UI Design", "Creating Working Prototypes"],
     },
   ];
@@ -143,28 +143,28 @@ function About() {
   const professionalAffiliations = [
     {
       title: "AWBW Facilitator",
-      date: "7/2021",
+      date: "2021",
       logo: "/images/awbw-logo.png",
       org: "A Window Between Worlds",
       location: "Venice, CA",
     },
     {
       title: "Google Certified Educator - Level 2",
-      date: "10/2019",
+      date: "2019",
       logo: "/images/google-level-2.png",
       org: "Google for Education",
       location: "Palo Alto, CA",
     },
     {
       title: "Cooperative Culture - Committee Chair",
-      date: "8/2019",
+      date: "2019",
       logo: "/images/iempire.jpeg",
       org: "iEmpire Academy",
       location: "San Bernardino, CA",
     },
     {
       title: "ITOC Fellow",
-      date: "6/2019",
+      date: "2019",
       logo: "/images/itoc-logo.jpeg",
       org: "Institute for Teachers of Color Committed to Racial Justice",
       location: "Riverside, CA",

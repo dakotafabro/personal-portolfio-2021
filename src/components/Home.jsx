@@ -10,6 +10,10 @@ function Home() {
       description:
         "I occupy a unique space in that I know what teachers want first-hand because I used to be one. I know what assessment data teachers might want to see and how they might want to use that data. I know what students want out of learning tools. They want to be engaged, challenged, and have fun--without the hassle of user interface confusion. As the landscape of education evolves, so too should our tech.",
       button: "See About Me",
+      toLink: "/about",
+      titleToLink: "About",
+      link: null,
+      type: "Link",
     },
     {
       id: "home2",
@@ -17,14 +21,10 @@ function Home() {
       description:
         "As a classroom educator, I always found myself asking 'How can this app/web-based learning tool be more effective for the students using it?'. I then took the initiative to teach myself how to code in order to move toward being able to be on the other side of the learning tools being used in the classroom. In just months, I now have the skills needed to create responsive web-based applications and seek to apply these skills to effectively improve classroom instruction.",
       button: "See Front-End Portfolio",
-    },
-    {
-      id: "home1",
-      title: "Google Certified Educator",
-      description:
-        "As a Google Certified Educator, I was able to design engaging learning curriculum in order to teach students 21st century technology skills. By doing so, students were empowered to see the internet and current technology as a tool for innovation rather than a place to consume and play. Students were able to broaden their worldviews while taking ownership of their own learning.",
-      button: "See Teaching Portfolio",
-      link: "https://fabrofotip2020.weebly.com/",
+      tolink: "/work",
+      titleToLink: "Work",
+      link: null,
+      type: "Link",
     },
   ];
 
@@ -83,13 +83,40 @@ function Home() {
                   {homePage.description}
                   <br />
                   <br />
-                  <a href={homePage.link} target="_blank" rel="noreferrer">
+                  <Link
+                    to={homePage.toLink}
+                    title={homePage.titleToLink}
+                    href={homePage.link}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <button>{homePage.button}</button>
-                  </a>
+                  </Link>
                 </p>
               </div>
             );
           })}
+
+          <div key="home1" className="col-sm-4 p-2">
+            <h2>Google Certified Educator</h2>
+            <p>
+              As a Google Certified Educator, I was able to design engaging
+              learning curriculum in order to teach students 21st century
+              technology skills. By doing so, students were empowered to see the
+              internet and current technology as a tool for innovation rather
+              than a place to consume and play. Students were able to broaden
+              their worldviews while taking ownership of their own learning.
+              <br />
+              <br />
+              <a
+                href="https://fabrofotip2020.weebly.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button>See Teaching Portfolio</button>
+              </a>
+            </p>
+          </div>
         </div>
       </div>
     </div>
