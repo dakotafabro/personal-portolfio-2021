@@ -13,7 +13,6 @@ function Navigation(props) {
               src="/images/df-2021-logo.png"
               alt="Dakota Fabro logo"
             />
-            Dakota Fabro
           </Link>
 
           <ul className="navbar-nav">
