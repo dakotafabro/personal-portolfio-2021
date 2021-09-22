@@ -7,7 +7,7 @@ function Footer() {
       <footer class="fixed-bottom">
         <div class="container">
           <p class="text-center text-white footer-content">
-            <span className="d-flex flex-row justify-content-center">
+            <span className="d-flex flex-row justify-content-center social-media-icons">
               <a
                 class="nav-link d-flex justify-content-center"
                 href="https://www.instagram.com/kodingkoda/"

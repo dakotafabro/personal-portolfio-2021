@@ -15,10 +15,18 @@ p.footer-content {
   margin-bottom: 5px;
 }
 
+.social-media-icons {
+  font-size: 25px;
+}
+
 @media (max-width: 576px) {
   p.footer-content {
     font-size: 10px !important;
     padding: 0px 0px 0px 0px;
     margin-bottom: 5px;
+  }
+
+  .social-media-icons {
+    font-size: 20px;
   }
 }
