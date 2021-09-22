@@ -5,9 +5,9 @@ import "./Navigation.css";
 function Navigation(props) {
   return (
     <div className="navigation">
-      <nav class="navbar navbar-expand navbar-dark bg-dark-new shadow fixed-top">
-        <div class="container">
-          <Link class="navbar-brand" to="/">
+      <nav className="navbar navbar-expand navbar-dark bg-dark-new shadow fixed-top">
+        <div className="container">
+          <Link className="navbar-brand" to="/">
             <img
               className="nav-logo"
               src="/images/df-2021-logo.png"
@@ -16,58 +16,56 @@ function Navigation(props) {
             Dakota Fabro
           </Link>
 
-          <div>
-            <ul class="navbar-nav ml-auto">
-              <li
-                class={`nav-item  ${
-                  props.location.pathname === "/" ? "active-new" : ""
-                }`}
-              >
-                <Link class="nav-link" to="/" title="Home">
-                  <i class="fas fa-home"></i>
-                </Link>
-              </li>
-              <li
-                class={`nav-item  ${
-                  props.location.pathname === "/about" ? "active-new" : ""
-                }`}
-              >
-                <Link class="nav-link" to="/about" title="About Me">
-                  <i class="fas fa-address-card"></i>
-                </Link>
-              </li>
+          <ul className="navbar-nav">
+            <li
+              className={`nav-item  ${
+                props.location.pathname === "/" ? "active-new" : ""
+              }`}
+            >
+              <Link className="nav-link" to="/" title="Home">
+                <i className="fas fa-home"></i>
+              </Link>
+            </li>
+            <li
+              className={`nav-item  ${
+                props.location.pathname === "/about" ? "active-new" : ""
+              }`}
+            >
+              <Link className="nav-link" to="/about" title="About Me">
+                <i className="fas fa-address-card"></i>
+              </Link>
+            </li>
 
-              <li
-                class={`nav-item  ${
-                  props.location.pathname === "/work" ? "active-new" : ""
-                }`}
-              >
-                <Link class="nav-link" to="/work" title="Projects">
-                  <i class="fas fa-briefcase"></i>
-                </Link>
-              </li>
+            <li
+              className={`nav-item  ${
+                props.location.pathname === "/work" ? "active-new" : ""
+              }`}
+            >
+              <Link className="nav-link" to="/work" title="Projects">
+                <i className="fas fa-briefcase"></i>
+              </Link>
+            </li>
 
-              <li
-                class={`nav-item  ${
-                  props.location.pathname === "/contact" ? "active-new" : ""
-                }`}
-              >
-                <Link class="nav-link" to="/contact" title="Contact">
-                  <i class="fas fa-envelope"></i>
-                </Link>
-              </li>
+            <li
+              className={`nav-item  ${
+                props.location.pathname === "/contact" ? "active-new" : ""
+              }`}
+            >
+              <Link className="nav-link" to="/contact" title="Contact">
+                <i className="fas fa-envelope"></i>
+              </Link>
+            </li>
 
-              <li
-                class={`nav-item  ${
-                  props.location.pathname === "/blog" ? "active-new" : ""
-                }`}
-              >
-                <Link class="nav-link" to="/blog" title="Blog">
-                  <i class="fas fa-blog"></i>
-                </Link>
-              </li>
-            </ul>
-          </div>
+            <li
+              className={`nav-item  ${
+                props.location.pathname === "/blog" ? "active-new" : ""
+              }`}
+            >
+              <Link className="nav-link" to="/blog" title="Blog">
+                <i className="fas fa-blog"></i>
+              </Link>
+            </li>
+          </ul>
         </div>
       </nav>
     </div>

@@ -25,3 +25,12 @@
 .nav-link:hover {
   color: var(--dakota-yellow) !important;
 }
+
+@media (max-width: 576px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

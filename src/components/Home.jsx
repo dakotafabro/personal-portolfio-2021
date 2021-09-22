@@ -34,7 +34,7 @@ function Home() {
         <div class="row align-items-center mb-5">
           <div class="col-sm-5">
             <img
-              class="img-fluid headshot shadow m-3"
+              class="img-fluid headshot shadow"
               src="/images/headshot1.jpg"
               alt="Dakota Fabro"
             />
