@@ -83,12 +83,7 @@ function Home() {
                   {homePage.description}
                   <br />
                   <br />
-                  <Link
-                    to={homePage.toLink}
-                    title={homePage.titleToLink}
-                    target="_blank"
-                    rel="noreferrer"
-                  >
+                  <Link to={homePage.toLink} title={homePage.titleToLink}>
                     <button>{homePage.button}</button>
                   </Link>
                 </p>
