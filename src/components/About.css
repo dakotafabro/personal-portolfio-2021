@@ -1,3 +1,9 @@
+:root {
+  --dakota-yellow: #ffbd59;
+  --dakota-gray: #545454;
+  --dakota-blue: #207cdb;
+}
+
 img {
   border-radius: 20px;
   padding: 10px;
@@ -25,4 +31,20 @@ img.professional-photo {
   h2 {
     text-align: center;
   }
+}
+.proficient-icons {
+  font-size: 50px;
+  color: var(--dakota-blue);
+}
+
+.familiar-icons {
+  font-size: 50px;
+  color: var(--dakota-yellow);
+}
+
+.languages {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  padding: 20px 10px;
+  border-radius: 20px;
+  margin: 0px;
 }

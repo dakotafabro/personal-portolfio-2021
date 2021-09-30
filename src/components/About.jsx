@@ -176,6 +176,53 @@ function About() {
       <div className="container">
         <div className="row align-items-center my-5">
           <h1 className="font-weight-light text-center">About</h1>
+
+          <div className="mb-4">
+            <div className="row align-items-center text-center proficient-icons">
+              <div className="col-sm-6 align-items-center text-center languages">
+                <div className="row align-items-center text-center">
+                  <h5>Proficient</h5>
+                  <div className="col-sm-2">
+                    <i class="fab fa-react"></i>
+                  </div>
+                  <div className="col-sm-2">
+                    <i class="fab fa-js-square"></i>
+                  </div>
+                  <div className="col-sm-2">
+                    <i class="fab fa-html5"></i>
+                  </div>
+                  <div className="col-sm-2">
+                    <i class="fab fa-css3-alt"></i>
+                  </div>
+                  <div className="col-sm-2">
+                    <i class="fab fa-bootstrap"></i>
+                  </div>
+                  <div className="col-sm-2">
+                    <i class="fab fa-github"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-sm-6 align-items-center text-center languages familiar-icons">
+                <div className="row align-items-center text-center">
+                  <h5>Familiar</h5>
+
+                  <div className="col-sm-4">
+                    <i class="fab fa-python"></i>
+                  </div>
+
+                  <div className="col-sm-4">
+                    <i class="fab fa-unity"></i>
+                  </div>
+
+                  <div className="col-sm-4">
+                    <span>C#</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <h2>Professional Experience</h2>
 
           <ResumeItem resumeItems={resumeItems} />
