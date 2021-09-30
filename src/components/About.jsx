@@ -177,7 +177,9 @@ function About() {
         <div className="row align-items-center my-5">
           <h1 className="font-weight-light text-center">About</h1>
 
-          <div className="mb-4">
+          <h2>Programming Languages</h2>
+
+          <div className="mb-5">
             <div className="row align-items-center text-center proficient-icons">
               <div className="col-sm-6 align-items-center text-center languages">
                 <div className="row align-items-center text-center">
