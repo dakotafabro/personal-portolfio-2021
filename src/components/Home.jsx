@@ -21,7 +21,7 @@ function Home() {
       description:
         "As a classroom educator, I always found myself asking 'How can this app/web-based learning tool be more effective for the students using it?'. I then took the initiative to teach myself how to code in order to move toward being able to be on the other side of the learning tools being used in the classroom. In just months, I now have the skills needed to create responsive web-based applications and seek to apply these skills to effectively improve classroom instruction.",
       button: "See Front-End Portfolio",
-      tolink: "/work",
+      toLink: "/work",
       titleToLink: "Work",
       link: null,
       type: "Link",
@@ -86,7 +86,6 @@ function Home() {
                   <Link
                     to={homePage.toLink}
                     title={homePage.titleToLink}
-                    href={homePage.link}
                     target="_blank"
                     rel="noreferrer"
                   >
