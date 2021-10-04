@@ -125,13 +125,6 @@ function About() {
       skills: ["Mapping User Journeys", "Field Data Collection"],
     },
     {
-      course: "User Experience (UX): The Ultimate Guide to Usability and UX",
-      org: "Udemy",
-      logo: "/images/udemy-logo.png",
-      date: "2021",
-      skills: ["Mapping User Journeys", "Field Data Collection"],
-    },
-    {
       course: "The Complete App Design Course - UX, UI, and Design Thinking",
       org: "Udemy",
       logo: "/images/udemy-logo.png",
