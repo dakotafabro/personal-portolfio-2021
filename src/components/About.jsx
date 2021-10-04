@@ -99,7 +99,8 @@ function About() {
       logo: "images/apu-logo.png",
       location: "Claremont, CA",
       date: "2014",
-      thesis: "From Self-Doubt To Inner Peace: An Ethnographic Narrative",
+      thesis:
+        "An Examination of the Racialization of Modern Biblical Scholarship and Western Existential Psychology in Regards to Martin Heidegger’s Notion of German Authenticity",
     },
   ];
 
