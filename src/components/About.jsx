@@ -242,7 +242,7 @@ function About() {
               <h2 className="text-start">Next Steps</h2>
               <p className="text-start">
                 I have transitioned from the elementary classroom toward the
-                tech industry in order to make educational resources more
+                tech industry in order to make technological resources more
                 equitable and accessible.
                 <br />
                 <br />
@@ -251,6 +251,9 @@ function About() {
                 transformed to respond to the ways their students learn.
                 <br />
                 <br />
+                In order to further hone my front-end skills and expertise, I
+                will be pursuing a Bachelor of Science in Computer Science this
+                coming Winter.
                 <Link to="/contact" title="Contact">
                   <button>Let's Connect</button>
                 </Link>
