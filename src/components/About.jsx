@@ -254,6 +254,8 @@ function About() {
                 In order to further hone my front-end skills and expertise, I
                 will be pursuing a Bachelor of Science in Computer Science this
                 coming Winter.
+                <br />
+                <br />
                 <Link to="/contact" title="Contact">
                   <button>Let's Connect</button>
                 </Link>
