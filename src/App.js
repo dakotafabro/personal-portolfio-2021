@@ -25,7 +25,7 @@ function App() {
             <Route path="/work" exact component={() => <Work />} />
             <Route path="/blog" exact component={() => <Blog />} />
           </Switch>
-          <Footer />s
+          <Footer />
         </ScrollToTop>
       </Router>
     </div>
