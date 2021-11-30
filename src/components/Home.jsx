@@ -55,7 +55,7 @@ function Home() {
             <h5>
               <em>Based in Los Angeles, CA</em> 🇺🇸 🇵🇭
             </h5>
-            <p className="mb-3">
+            <p className="mb-5">
               As a Google Certified Educator, I understand the importance of
               creating web apps that are engaging, intuitive, and useful for
               assessing student growth.
@@ -67,6 +67,13 @@ function Home() {
               during the current pandemic.
               <br />
               <br />
+              <a
+                className="m-2"
+                href="https://drive.google.com/file/d/1ZoDwpQ1pQ1Fd5SKZkO_-hwmAzWFsifQg/view?usp=sharing"
+                alt="View Resume"
+              >
+                <button className="download-resume">Download Resume</button>
+              </a>
               <Link to="/contact" title="Contact">
                 <button>Contact Me</button>
               </Link>
