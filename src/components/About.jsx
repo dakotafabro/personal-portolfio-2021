@@ -261,17 +261,22 @@ function About() {
 
   const developingUnderstanding = [
     {
-      column_size: "col-sm-4",
+      column_size: "col-sm-3",
+      icon_class: "fab fa-git-alt",
+      description: "Git",
+    },
+    {
+      column_size: "col-sm-3",
       icon_class: "fas fa-database",
       description: "SQL",
     },
     {
-      column_size: "col-sm-4",
+      column_size: "col-sm-3",
       icon_class: "fab fa-unity",
       description: "Unity",
     },
     {
-      column_size: "col-sm-4",
+      column_size: "col-sm-3",
       icon_class: "fas fa-gamepad",
       description: "C#",
     },
