@@ -87,7 +87,7 @@ function Home() {
           {homePageInfo.map((homePage) => {
             return (
               <div key={homePage.id} className="col-sm-4 p-2">
-                <h2>{homePage.title}</h2>
+                <h4>{homePage.title}</h4>
                 <p>
                   {homePage.description}
                   <br />
@@ -101,7 +101,7 @@ function Home() {
           })}
 
           <div key="home1" className="col-sm-4 p-2">
-            <h2>Google Certified Educator</h2>
+            <h4>Google Certified Educator</h4>
             <p>
               As a Google Certified Educator, I was able to design engaging
               learning curriculum in order to teach students 21st century
