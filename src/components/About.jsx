@@ -9,7 +9,7 @@ function About() {
   const resumeItems = [
     {
       title: "STEAM Educator",
-      org: "Genesis STEAM",
+      org: "GENESIS STEAM",
       logo: "/images/genesis-logo.png",
       date: "06/2021 to Present",
       current: true,
@@ -21,6 +21,7 @@ function About() {
         "Creating Virtual Spaces",
       ],
       duties: [
+        "Developed and maintains an online resource website using ReactJS to be used across Los Angeles Unified School District",
         "Develop GENESIS STEAM curriculum aligned with CA State Standards and UN Global Goals",
         "Create educational programming tools to ensure streamlined program planning as well as learning outcome metrics collection",
         "Expand and maintain GENESIS STEAM curriculum resource website using ReactJS",
@@ -77,6 +78,14 @@ function About() {
 
   const formalEd = [
     {
+      degree: "AA, Computer Science",
+      org: "Citrus College",
+      logo: "images/citrus-logo.jpeg",
+      location: "Azusa, CA",
+      date: "Expected 2023",
+      thesis: "N/A",
+    },
+    {
       degree: "M.A. Education",
       org: "Claremont Graduate University",
       logo: "images/cgu-logo.png",
@@ -105,6 +114,28 @@ function About() {
   ];
 
   const informalEd = [
+    {
+      course: "Google IT Support Certificate - In Progress",
+      org: "Google & Coursera",
+      logo: "/images/google-logo.png",
+      date: "2021",
+      skills: [
+        "Computer Networking & Troubleshooting",
+        "Using Operating Systems Efficiently",
+      ],
+    },
+    {
+      course: "Frontend Development & Programming",
+      org: "Sololearn",
+      logo: "/images/sololearn-logo.webp",
+      date: "2021",
+      skills: [
+        "Web Development (HTML, CSS, Javasript, ReactJS, Redux)",
+        "Python",
+        "SQL",
+        "Data Structures & Algorithms",
+      ],
+    },
     {
       course: "React Development",
       org: "SheCodes Workshops",
@@ -135,6 +166,20 @@ function About() {
   ];
 
   const professionalAffiliations = [
+    {
+      title: "Member",
+      date: "2022",
+      logo: "/images/women-who-code.png",
+      org: "Women Who Code",
+      location: "Los Angeles, CA",
+    },
+    {
+      title: "Alumni",
+      date: "2021",
+      logo: "/images/shecodes-logo.png",
+      org: "SheCodes US Students & Alumni",
+      location: "Worldwide",
+    },
     {
       title: "AWBW Facilitator",
       date: "2021",
@@ -171,48 +216,75 @@ function About() {
         <div className="row align-items-center my-5">
           <h1 className="font-weight-light text-center">About</h1>
 
-          <h2>Programming Languages</h2>
+          <h2>Languages & Frameworks</h2>
 
           <div className="mb-5">
             <div className="row align-items-center text-center proficient-icons">
-              <div className="col-sm-6 align-items-center text-center languages">
+              <div className="col-sm-8 align-items-center text-center languages">
                 <div className="row align-items-center text-center">
                   <h5>Proficient</h5>
                   <div className="col-sm-2">
+                    <i class="fab fa-python"></i>
+                    <p>
+                      <small>Python</small>
+                    </p>
+                  </div>
+                  <div className="col-sm-2">
                     <i class="fab fa-react"></i>
+                    <p>
+                      <small>ReactJS</small>
+                    </p>
                   </div>
                   <div className="col-sm-2">
                     <i class="fab fa-js-square"></i>
+                    <p>
+                      <small>JavaScript</small>
+                    </p>
                   </div>
                   <div className="col-sm-2">
                     <i class="fab fa-html5"></i>
+                    <p>
+                      <small>HTML5</small>
+                    </p>
                   </div>
                   <div className="col-sm-2">
                     <i class="fab fa-css3-alt"></i>
+                    <p>
+                      <small>CSS3</small>
+                    </p>
                   </div>
                   <div className="col-sm-2">
                     <i class="fab fa-bootstrap"></i>
-                  </div>
-                  <div className="col-sm-2">
-                    <i class="fab fa-github"></i>
+                    <p>
+                      <small>Bootstrap</small>
+                    </p>
                   </div>
                 </div>
               </div>
 
-              <div className="col-sm-6 align-items-center text-center languages familiar-icons">
+              <div className="col-sm-4 align-items-center text-center languages familiar-icons">
                 <div className="row align-items-center text-center">
-                  <h5>Familiar</h5>
+                  <h5>Learning</h5>
 
                   <div className="col-sm-4">
-                    <i class="fab fa-python"></i>
+                    <i class="fas fa-database"></i>
+                    <p>
+                      <small>SQL</small>
+                    </p>
                   </div>
 
                   <div className="col-sm-4">
                     <i class="fab fa-unity"></i>
+                    <p>
+                      <small>Unity</small>
+                    </p>
                   </div>
 
                   <div className="col-sm-4">
-                    <span>C#</span>
+                    <i class="fas fa-gamepad"></i>
+                    <p>
+                      <small>C#</small>
+                    </p>
                   </div>
                 </div>
               </div>
@@ -241,19 +313,19 @@ function About() {
             <div className="col-sm-7">
               <h2 className="text-start">Next Steps</h2>
               <p className="text-start">
-                I have transitioned from the elementary classroom toward the
-                tech industry in order to make technological resources more
-                equitable and accessible.
+                I have transitioned from the classroom to the tech industry in
+                order to make technological resources more equitable,
+                accessible, and effective.
                 <br />
                 <br />
                 Through the use of responsive and effective front-end
-                development, the educational organizations can be truly
-                transformed to respond to the ways their students learn.
+                development, organizations can be transformed to respond to the
+                ways they acheive their goals.
                 <br />
                 <br />
-                In order to further hone my front-end skills and expertise, I
-                will be pursuing a Bachelor of Science in Computer Science this
-                coming Winter.
+                In order to further hone my front-end and programming expertise,
+                I am currently taking Computer Science courses as well as
+                working toward completing Google's IT Support Certificate.
                 <br />
                 <br />
                 <Link to="/contact" title="Contact">

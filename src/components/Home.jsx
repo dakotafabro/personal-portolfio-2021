@@ -56,9 +56,10 @@ function Home() {
               <em>Based in Los Angeles, CA</em> 🇺🇸 🇵🇭
             </h5>
             <p className="mb-5">
-              As a Google Certified Educator, I understand the importance of
-              creating web apps that are engaging, intuitive, and useful for the
-              human on the other end.
+              As a Google Certified Educator, former classroom teacher, and
+              self-taught web developer, I understand the importance of creating
+              web apps that are engaging, intuitive, and useful for the human on
+              the other end.
               <br />
               <br />
               My aim as a front-end web developer is to help users reach their

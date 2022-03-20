@@ -16,6 +16,7 @@ const WorkItem = ({ work }) => {
             </div>
             <div className="col-sm-7">
               <h2>{work.title}</h2>
+
               <p>
                 {work.description}
                 <br />
@@ -30,6 +31,10 @@ const WorkItem = ({ work }) => {
                     {work.buttonText}
                   </a>
                 </button>
+              </p>
+
+              <p>
+                <small>{work.year}</small>
               </p>
             </div>
           </>

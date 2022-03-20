@@ -33,7 +33,7 @@ function Footer() {
                 <i class="fab fa-github"></i>
               </a>
             </span>
-            Copyright &copy; Dakota Fabro 2021
+            Copyright &copy; Dakota Fabro 2022
             <br />
             <small>
               <em>
