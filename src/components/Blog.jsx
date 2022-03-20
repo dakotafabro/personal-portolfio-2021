@@ -9,7 +9,7 @@ function Blog() {
           <h1 className="font-weight-light text-center">kodingKoda - Blog</h1>
           <img
             className="img-fluid blog-image shadow mb-4 col-sm-5"
-            src="/images/under-construction.jpg"
+            src="https://i.imgur.com/S1o7NZg.jpg"
             alt="Under Construction"
           />
           <p className="text-center">Coming Soon!</p>

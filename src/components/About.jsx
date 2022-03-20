@@ -4,13 +4,14 @@ import ResumeItem from "./ResumeItem";
 import Education from "./Education";
 import ProfessionalAffiliations from "./ProfessionalAffiliations";
 import { Link, withRouter } from "react-router-dom";
+import LanguagesAndFrameworks from "./LanguagesAndFrameworks";
 
 function About() {
   const resumeItems = [
     {
       title: "STEAM Educator",
       org: "GENESIS STEAM",
-      logo: "/images/genesis-logo.png",
+      logo: "https://i.imgur.com/5wXjXFn.png",
       date: "06/2021 to Present",
       current: true,
       location: "Los Angeles, CA",
@@ -34,7 +35,7 @@ function About() {
     {
       title: "K8 Educator",
       org: "Allegiance STEAM Academy & iEmpire Academy",
-      logo: "/images/asa-iemp-logo.png",
+      logo: "https://i.imgur.com/Xsd54KH.png",
       date: "2018 to 2021",
       current: false,
       location: "Chino, CA / San Bernardino, CA",
@@ -56,7 +57,7 @@ function About() {
     {
       title: "Photographer",
       org: "Dakota Cheyenne Photography",
-      logo: "/images/dcp-logo.png",
+      logo: "https://i.imgur.com/YYesDih.png",
       date: "2015 to Present",
       current: true,
       location: "Claremont, CA",
@@ -80,7 +81,7 @@ function About() {
     {
       degree: "AA, Computer Science",
       org: "Citrus College",
-      logo: "images/citrus-logo.jpeg",
+      logo: "https://i.imgur.com/7LxBMaS.jpg",
       location: "Azusa, CA",
       date: "Expected 2023",
       thesis: "N/A",
@@ -88,7 +89,7 @@ function About() {
     {
       degree: "M.A. Education",
       org: "Claremont Graduate University",
-      logo: "images/cgu-logo.png",
+      logo: "https://i.imgur.com/WrjF2H9.png",
       location: "Claremont, CA",
       date: "2019",
       thesis: "From Self-Doubt To Inner Peace: An Ethnographic Narrative",
@@ -96,7 +97,7 @@ function About() {
     {
       degree: "M.A. Religion, Ethics, & Social Change",
       org: "Claremont School of Theology",
-      logo: "images/cst-logo.jpeg",
+      logo: "https://i.imgur.com/gfVNfvk.jpg",
       location: "Claremont, CA",
       date: "2016",
       thesis:
@@ -105,7 +106,7 @@ function About() {
     {
       degree: "B.A. Psychology",
       org: "Azusa Pacific University University",
-      logo: "images/apu-logo.png",
+      logo: "https://i.imgur.com/BNv6omc.png",
       location: "Claremont, CA",
       date: "2014",
       thesis:
@@ -117,17 +118,32 @@ function About() {
     {
       course: "Google IT Support Certificate - In Progress",
       org: "Google & Coursera",
-      logo: "/images/google-logo.png",
-      date: "2021",
+      logo: "https://i.imgur.com/VXcfjTU.png",
+      date: "2022",
       skills: [
         "Computer Networking & Troubleshooting",
         "Using Operating Systems Efficiently",
       ],
     },
     {
+      course: "Data Structures & Algorithms - Python",
+      org: "Udemy",
+      logo: "https://i.imgur.com/bfVKCVB.png",
+      date: "2022",
+      skills: [
+        "Linked Lists",
+        "Doubly Linked Lists",
+        "Hash Tables",
+        "Graphs",
+        "Binary Search Trees",
+        "Sorts (Bubble, Merge, Insertion, Selection)",
+        "Object Oriented Programming",
+      ],
+    },
+    {
       course: "Frontend Development & Programming",
       org: "Sololearn",
-      logo: "/images/sololearn-logo.webp",
+      logo: "https://i.imgur.com/t6LdZS0.png",
       date: "2021",
       skills: [
         "Web Development (HTML, CSS, Javasript, ReactJS, Redux)",
@@ -139,7 +155,7 @@ function About() {
     {
       course: "React Development",
       org: "SheCodes Workshops",
-      logo: "/images/shecodes-logo.png",
+      logo: "https://i.imgur.com/Wbg1Uch.png",
       date: "2021",
       skills: [
         "Web Development (HTML, CSS, Javasript, ReactJS)",
@@ -152,14 +168,14 @@ function About() {
     {
       course: "User Experience (UX): The Ultimate Guide to Usability and UX",
       org: "Udemy",
-      logo: "/images/udemy-logo.png",
+      logo: "https://i.imgur.com/bfVKCVB.png",
       date: "2021",
       skills: ["Mapping User Journeys", "Field Data Collection"],
     },
     {
       course: "The Complete App Design Course - UX, UI, and Design Thinking",
       org: "Udemy",
-      logo: "/images/udemy-logo.png",
+      logo: "https://i.imgur.com/bfVKCVB.png",
       date: "2020",
       skills: ["UX/UI Design", "Creating Working Prototypes"],
     },
@@ -169,44 +185,95 @@ function About() {
     {
       title: "Member",
       date: "2022",
-      logo: "/images/women-who-code.png",
+      logo: "https://i.imgur.com/gLccnOb.png",
       org: "Women Who Code",
       location: "Los Angeles, CA",
     },
     {
       title: "Alumni",
       date: "2021",
-      logo: "/images/shecodes-logo.png",
+      logo: "https://i.imgur.com/Wbg1Uch.png",
       org: "SheCodes US Students & Alumni",
       location: "Worldwide",
     },
     {
       title: "AWBW Facilitator",
       date: "2021",
-      logo: "/images/awbw-logo.png",
+      logo: "https://i.imgur.com/QfnBzh7.png",
       org: "A Window Between Worlds",
       location: "Venice, CA",
     },
     {
       title: "Google Certified Educator - Level 2",
       date: "2019",
-      logo: "/images/google-level-2.png",
+      logo: "https://i.imgur.com/PjHyuqn.png",
       org: "Google for Education",
       location: "Palo Alto, CA",
     },
     {
       title: "Cooperative Culture - Committee Chair",
       date: "2019",
-      logo: "/images/iempire.jpeg",
+      logo: "https://i.imgur.com/ac1VDsO.jpg",
       org: "iEmpire Academy",
       location: "San Bernardino, CA",
     },
     {
       title: "ITOC Fellow",
       date: "2019",
-      logo: "/images/itoc-logo.jpeg",
+      logo: "https://i.imgur.com/pJwcdMx.jpg",
       org: "Institute for Teachers of Color Committed to Racial Justice",
       location: "Riverside, CA",
+    },
+  ];
+
+  const proficient = [
+    {
+      column_size: "col-sm-2",
+      icon_class: "fab fa-python",
+      description: "Python",
+    },
+    {
+      column_size: "col-sm-2",
+      icon_class: "fab fa-react",
+      description: "ReactJS",
+    },
+    {
+      column_size: "col-sm-2",
+      icon_class: "fab fa-js-square",
+      description: "JavaScript",
+    },
+    {
+      column_size: "col-sm-2",
+      icon_class: "fab fa-html5",
+      description: "HTML5",
+    },
+    {
+      column_size: "col-sm-2",
+      icon_class: "fab fa-css3-alt",
+      description: "CSS3",
+    },
+    {
+      column_size: "col-sm-2",
+      icon_class: "fab fa-bootstrap",
+      description: "Bootstrap",
+    },
+  ];
+
+  const developingUnderstanding = [
+    {
+      column_size: "col-sm-4",
+      icon_class: "fas fa-database",
+      description: "SQL",
+    },
+    {
+      column_size: "col-sm-4",
+      icon_class: "fab fa-unity",
+      description: "Unity",
+    },
+    {
+      column_size: "col-sm-4",
+      icon_class: "fas fa-gamepad",
+      description: "C#",
     },
   ];
 
@@ -223,69 +290,16 @@ function About() {
               <div className="col-sm-8 align-items-center text-center languages">
                 <div className="row align-items-center text-center">
                   <h5>Proficient</h5>
-                  <div className="col-sm-2">
-                    <i class="fab fa-python"></i>
-                    <p>
-                      <small>Python</small>
-                    </p>
-                  </div>
-                  <div className="col-sm-2">
-                    <i class="fab fa-react"></i>
-                    <p>
-                      <small>ReactJS</small>
-                    </p>
-                  </div>
-                  <div className="col-sm-2">
-                    <i class="fab fa-js-square"></i>
-                    <p>
-                      <small>JavaScript</small>
-                    </p>
-                  </div>
-                  <div className="col-sm-2">
-                    <i class="fab fa-html5"></i>
-                    <p>
-                      <small>HTML5</small>
-                    </p>
-                  </div>
-                  <div className="col-sm-2">
-                    <i class="fab fa-css3-alt"></i>
-                    <p>
-                      <small>CSS3</small>
-                    </p>
-                  </div>
-                  <div className="col-sm-2">
-                    <i class="fab fa-bootstrap"></i>
-                    <p>
-                      <small>Bootstrap</small>
-                    </p>
-                  </div>
+                  <LanguagesAndFrameworks languagesAndFrameworks={proficient} />
                 </div>
               </div>
 
               <div className="col-sm-4 align-items-center text-center languages familiar-icons">
                 <div className="row align-items-center text-center">
-                  <h5>Learning</h5>
-
-                  <div className="col-sm-4">
-                    <i class="fas fa-database"></i>
-                    <p>
-                      <small>SQL</small>
-                    </p>
-                  </div>
-
-                  <div className="col-sm-4">
-                    <i class="fab fa-unity"></i>
-                    <p>
-                      <small>Unity</small>
-                    </p>
-                  </div>
-
-                  <div className="col-sm-4">
-                    <i class="fas fa-gamepad"></i>
-                    <p>
-                      <small>C#</small>
-                    </p>
-                  </div>
+                  <h5>Developing Understanding</h5>
+                  <LanguagesAndFrameworks
+                    languagesAndFrameworks={developingUnderstanding}
+                  />
                 </div>
               </div>
             </div>
@@ -305,7 +319,7 @@ function About() {
             <div className="col-sm-5">
               <img
                 className="img-fluid shadow mb-4 mb-lg-0"
-                src="/images/planning-photo.jpg"
+                src="https://i.imgur.com/RywEXuJ.jpg"
                 alt=""
               />
             </div>

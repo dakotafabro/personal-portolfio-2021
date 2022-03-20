@@ -10,7 +10,7 @@ function Navigation(props) {
           <Link className="navbar-brand navbar-link-and-logo" to="/">
             <img
               className="nav-logo"
-              src="/images/df-2021-logo.png"
+              src="https://i.imgur.com/lW20ViD.png"
               alt="Dakota Fabro logo"
             />
           </Link>

@@ -38,7 +38,12 @@ function Footer() {
             <small>
               <em>
                 Built with{" "}
-                <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
+                <a
+                  className="footer-link"
+                  href="https://reactjs.org/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   ReactJS
                 </a>
               </em>

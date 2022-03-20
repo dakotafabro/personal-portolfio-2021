@@ -10,6 +10,14 @@ footer {
   color: #fff !important;
 }
 
+.footer-link {
+  color: var(--dakota-yellow) !important;
+}
+
+.footer-link:hover {
+  color: var(--dakota-blue) !important;
+}
+
 p.footer-content {
   font-size: 12px;
   margin-bottom: 5px;

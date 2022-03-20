@@ -35,15 +35,6 @@ function Contact() {
                   </button>
                 </CopyToClipboard>
                 <br />
-                {/* <br />
-                <i class="fas fa-mobile-alt"></i> /{" "}
-                <i class="far fa-comment-alt"></i>
-                <br /> */}
-                {/* <button className="email-link">
-                  <a className="phone-link" href="tel:+1-626-664-0639">
-                    (626) 664-0639
-                  </a>
-                </button> */}
               </p>
             </div>
           </div>
