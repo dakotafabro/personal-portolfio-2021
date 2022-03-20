@@ -57,19 +57,20 @@ function Home() {
             </h5>
             <p className="mb-5">
               As a Google Certified Educator, I understand the importance of
-              creating web apps that are engaging, intuitive, and useful for
-              assessing student growth.
+              creating web apps that are engaging, intuitive, and useful for the
+              human on the other end.
               <br />
               <br />
-              My aim as a front-end developer is to help educators and students
-              reach their full potential within the classroom--all while being
-              responsive to the heightened demands placed on classroom educators
-              during the current pandemic.
+              My aim as a front-end web developer is to help users reach their
+              full potential by creating web tools that are useful and
+              streamlined--all while being responsive to the heightened demands
+              placed on creators, workers, and learners as a result of the
+              pandemic.
               <br />
               <br />
               <a
                 className="m-2"
-                href="https://drive.google.com/file/d/1ZoDwpQ1pQ1Fd5SKZkO_-hwmAzWFsifQg/view?usp=sharing"
+                href="https://drive.google.com/file/d/1V1lMgzxu1HHzqkZtbx1PK_y8WbwjSD8j/view?usp=sharing"
                 alt="View Resume"
               >
                 <button className="download-resume">Download Resume</button>

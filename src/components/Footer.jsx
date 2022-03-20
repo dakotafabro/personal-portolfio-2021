@@ -18,7 +18,7 @@ function Footer() {
               </a>
               <a
                 class="nav-link d-flex justify-content-center"
-                href="https://www.instagram.com/kodingkoda/"
+                href="https://www.linkedin.com/in/dakotafabro/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -26,7 +26,7 @@ function Footer() {
               </a>
               <a
                 class="nav-link d-flex justify-content-center"
-                href="https://www.instagram.com/kodingkoda/"
+                href="https://github.com/dakotafabro"
                 target="_blank"
                 rel="noreferrer"
               >
