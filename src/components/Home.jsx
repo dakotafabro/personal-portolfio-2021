@@ -19,7 +19,7 @@ function Home() {
       id: "home2",
       title: "UX/UI & Front-End Development",
       description:
-        "As a classroom educator, I always found myself asking 'How can this app/web-based learning tool be more effective for the students using it?'. I then took the initiative to teach myself how to code in order to move toward being able to be on the other side of the learning tools being used in the classroom. In just months, I now have the skills needed to create responsive web-based applications and seek to apply these skills to effectively improve classroom instruction.",
+        "As an educator, I found myself asking 'How can this app/web-based learning tool be more effective for the students using it?'. I took the initiative to learn how to code in order to understand the other side of the learning tools being used in the classroom. I now have the skills needed to create responsive web-based applications and seek to apply these skills to effectively improve classroom instruction as well as other web-based tools.",
       button: "See Front-End Portfolio",
       toLink: "/work",
       titleToLink: "Work",
@@ -56,14 +56,15 @@ function Home() {
               <em>Based in Los Angeles, CA</em> 🇺🇸 🇵🇭
             </h5>
             <p className="mb-5">
-              As a Google Certified Educator, former classroom teacher, and
-              self-taught web developer, I understand the importance of creating
-              web apps that are engaging, intuitive, and useful for the human on
-              the other end.
+              I have recently left education to pursue a career in software
+              engineering. As a recipient of the 2022 Edie Windsor Scholarship
+              through Lesbians Who Tech, I am currently attending The Grace
+              Hopper Program @ Fullstack Academy with a graduation date of
+              September 2022.
               <br />
               <br />
-              My aim as a front-end web developer is to help users reach their
-              full potential by creating web tools that are useful and
+              My aim as a software engineer is to help users reach their full
+              potential by creating web tools that are useful and
               streamlined--all while being responsive to the heightened demands
               placed on creators, workers, and learners as a result of the
               pandemic.
