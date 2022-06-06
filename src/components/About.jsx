@@ -79,6 +79,14 @@ function About() {
 
   const formalEd = [
     {
+      degree: "Fullstack Software Engineer - Bootcamp",
+      org: "The Grace Hopper Program @ Fullstack Academy",
+      logo: "https://i.imgur.com/UYRXdcB.jpg",
+      location: "New York, NY",
+      date: "Expected 2022",
+      thesis: "N/A",
+    },
+    {
       degree: "AA, Computer Science",
       org: "Citrus College",
       logo: "https://i.imgur.com/7LxBMaS.jpg",

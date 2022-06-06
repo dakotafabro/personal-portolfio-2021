@@ -8,7 +8,7 @@ function Home() {
       id: "home3",
       title: "EDU + Front-End Development",
       description:
-        "I occupy a unique space in that I know what teachers want first-hand because I used to be one. I know what assessment data teachers might want to see and how they might want to use that data. I know what students want out of learning tools. They want to be engaged, challenged, and have fun--without the hassle of user interface confusion. As the landscape of education evolves, so too should our tech.",
+        "As a former educator, I know what assessment data teachers might want to see and how they might want to use that data. I know what students want out of learning tools. They want to be engaged, challenged, and enjoy their work--without the hassle of user interface confusion. As the landscape of education evolves, so too should our tech.",
       button: "See About Me",
       toLink: "/about",
       titleToLink: "About",
@@ -19,8 +19,8 @@ function Home() {
       id: "home2",
       title: "UX/UI & Front-End Development",
       description:
-        "As an educator, I found myself asking 'How can this app/web-based learning tool be more effective for the students using it?'. I took the initiative to learn how to code in order to understand the other side of the learning tools being used in the classroom. I now have the skills needed to create responsive web-based applications and seek to apply these skills to effectively improve classroom instruction as well as other web-based tools.",
-      button: "See Front-End Portfolio",
+        "As a former educator, I found myself asking 'How can this app/web-based learning tool be more effective for the students using it?'. I took on learning how to code in order to understand the other side of the learning tools being used in the classroom. I now have the skills needed to create responsive web-based applications and aim to apply these skills to  improve classroom instruction and other web-based tools.",
+      button: "See Developer Portfolio",
       toLink: "/work",
       titleToLink: "Work",
       link: null,
@@ -51,23 +51,22 @@ function Home() {
                 (they/she)
               </a>
             </h1>
-            <h3>STEAM Educator & Front-End Developer</h3>
+            <h3>Upcoming Software Engineer</h3>
             <h5>
               <em>Based in Los Angeles, CA</em> 🇺🇸 🇵🇭
             </h5>
             <p className="mb-5">
-              I have recently left education to pursue a career in software
+              I recently left education to pursue a career in software
               engineering. As a recipient of the 2022 Edie Windsor Scholarship
               through Lesbians Who Tech, I am currently attending The Grace
               Hopper Program @ Fullstack Academy with a graduation date of
               September 2022.
               <br />
               <br />
-              My aim as a software engineer is to help users reach their full
-              potential by creating web tools that are useful and
-              streamlined--all while being responsive to the heightened demands
-              placed on creators, workers, and learners as a result of the
-              pandemic.
+              My aim as a software engineer is to help users reach their ideas
+              by creating web tools that are useful and streamlined--all while
+              being responsive to the heightened demands placed on creators,
+              workers, and learners as a result of the pandemic.
               <br />
               <br />
               <a
@@ -104,12 +103,13 @@ function Home() {
           <div key="home1" className="col-sm-4 p-2">
             <h4>Google Certified Educator</h4>
             <p>
-              As a Google Certified Educator, I was able to design engaging
-              learning curriculum in order to teach students 21st century
-              technology skills. By doing so, students were empowered to see the
-              internet and current technology as a tool for innovation rather
-              than a place to consume and play. Students were able to broaden
-              their worldviews while taking ownership of their own learning.
+              Software Engineering relies heavily on continual learning as well
+              as collaborating with other engineers. Being able to know your
+              audience and be able to teach other engineers is a skill that
+              requires patience and a deep understanding of how learning
+              happens. My experience as a former educator translate well to
+              engineering in regards to my own continual learning and fostering
+              growth in the members of my team.
               <br />
               <br />
               <a
