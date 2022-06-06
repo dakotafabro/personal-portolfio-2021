@@ -10,14 +10,6 @@ function Footer() {
             <span className="d-flex flex-row justify-content-center social-media-icons">
               <a
                 class="nav-link d-flex justify-content-center"
-                href="https://www.instagram.com/kodingkoda/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <i class="fab fa-instagram"></i>
-              </a>
-              <a
-                class="nav-link d-flex justify-content-center"
                 href="https://www.linkedin.com/in/dakotafabro/"
                 target="_blank"
                 rel="noreferrer"
@@ -31,6 +23,14 @@ function Footer() {
                 rel="noreferrer"
               >
                 <i class="fab fa-github"></i>
+              </a>
+              <a
+                class="nav-link d-flex justify-content-center"
+                href="https://www.instagram.com/kodingkoda/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i class="fab fa-instagram"></i>
               </a>
             </span>
             Copyright &copy; Dakota Fabro 2022
