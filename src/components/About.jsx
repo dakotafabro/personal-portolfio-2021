@@ -79,7 +79,7 @@ function About() {
 
   const formalEd = [
     {
-      degree: "Fullstack Software Engineer - Bootcamp",
+      degree: "Fullstack Software Engineering Student",
       org: "The Grace Hopper Program @ Fullstack Academy",
       logo: "https://i.imgur.com/UYRXdcB.jpg",
       location: "New York, NY",
@@ -190,6 +190,13 @@ function About() {
   ];
 
   const professionalAffiliations = [
+    {
+      title: "Edie Windsor Coding Scholarship Recipient",
+      date: "2022",
+      logo: "https://i.imgur.com/IOgPa8W.png",
+      org: "Lesbians Who Tech",
+      location: "Los Angeles, CA",
+    },
     {
       title: "Member",
       date: "2022",
@@ -340,19 +347,13 @@ function About() {
             <div className="col-sm-7">
               <h2 className="text-start">Next Steps</h2>
               <p className="text-start">
-                I have transitioned from the classroom to the tech industry in
-                order to make technological resources more equitable,
-                accessible, and effective.
+                I have transitioned from education to the tech industry in order
+                to make tech more equitable, accessible, and effective.
                 <br />
                 <br />
-                Through the use of responsive and effective front-end
-                development, organizations can be transformed to respond to the
-                ways they acheive their goals.
-                <br />
-                <br />
-                In order to further hone my front-end and programming expertise,
-                I am currently taking Computer Science courses as well as
-                working toward completing Google's IT Support Certificate.
+                In order to further hone my software engineering expertise, I am
+                currently taking Computer Science courses and working toward
+                completing my time at Fullstack Academy.
                 <br />
                 <br />
                 <Link to="/contact" title="Contact">
