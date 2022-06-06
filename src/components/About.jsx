@@ -77,7 +77,7 @@ function About() {
 
   const formalEd = [
     {
-      degree: "Fullstack Software Engineering Student",
+      degree: "Fullstack Software Engineer",
       org: "The Grace Hopper Program @ Fullstack Academy",
       logo: "https://i.imgur.com/UYRXdcB.jpg",
       location: "New York, NY",
