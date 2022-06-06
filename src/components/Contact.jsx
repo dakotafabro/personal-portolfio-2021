@@ -7,9 +7,7 @@ function Contact() {
 
   const copyEmail = () => {
     setEmail("dakotafabrocgu@gmail.com");
-    alert(
-      "Email copied to clipboard. I look forward to hearing from you! 🧑🏽‍💻"
-    );
+    alert("Email copied to clipboard. I look forward to hearing from you! 🧑🏽‍💻");
   };
 
   return (
@@ -20,7 +18,7 @@ function Contact() {
             <div className="contact-info text-center">
               <img
                 className="mb-2"
-                src="/images/df-2021-logo.png"
+                src="https://i.imgur.com/lW20ViD.png"
                 alt="Dakota Fabro logo"
               />
 
