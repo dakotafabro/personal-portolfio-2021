@@ -51,7 +51,7 @@ function Home() {
                 (they/she)
               </a>
             </h1>
-            <h3>Upcoming Software Engineer</h3>
+            <h3>Upcoming Software Engineer @ Fullstack Academy</h3>
             <h5>
               <em>Based in Los Angeles, CA</em> 🇺🇸 🇵🇭
             </h5>
