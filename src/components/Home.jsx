@@ -8,7 +8,7 @@ function Home() {
       id: "home3",
       title: "EDU + Front-End Development",
       description:
-        "As a former educator, I know what assessment data teachers might want to see and how they might want to use that data. I know what students want out of learning tools. They want to be engaged, challenged, and enjoy their work--without the hassle of user interface confusion. As the landscape of education evolves, so too should our tech.",
+        "As a former educator, I know what assessment data teachers want to see and how they want to use it. I know what students want out of learning tools. They want to be engaged, challenged, and enjoy their work--without the hassle of user interface confusion. As the landscape of education evolves, so too should our tech.",
       button: "See About Me",
       toLink: "/about",
       titleToLink: "About",
@@ -19,7 +19,7 @@ function Home() {
       id: "home2",
       title: "UX/UI & Front-End Development",
       description:
-        "As a former educator, I found myself asking 'How can this app/web-based learning tool be more effective for the students using it?'. I took on learning how to code in order to understand the other side of the learning tools being used in the classroom. I now have the skills needed to create responsive web-based applications and aim to apply these skills to  improve classroom instruction and other web-based tools.",
+        "As a former educator, I found myself asking 'How can this app/web-based learning tool be more effective for the students using it?'. I learned how to code to understand the other side of the learning tools being used in the classroom. I now have the skills needed to create responsive web-based applications and aim to apply these skills to improve the way users interact with learning platforms and other web-based tools.",
       button: "See Developer Portfolio",
       toLink: "/work",
       titleToLink: "Work",
@@ -105,11 +105,11 @@ function Home() {
             <p>
               Software Engineering relies heavily on continual learning as well
               as collaborating with other engineers. Being able to know your
-              audience and be able to teach other engineers is a skill that
-              requires patience and a deep understanding of how learning
-              happens. My experience as a former educator translate well to
-              engineering in regards to my own continual learning and fostering
-              growth in the members of my team.
+              audience and teach other engineers is a skill that requires
+              patience and a deep understanding of how learning happens. My
+              experience as a former educator translates well to engineering in
+              regards to my own continual learning and fostering growth in the
+              members of any teams on which I may find myself.
               <br />
               <br />
               <a
