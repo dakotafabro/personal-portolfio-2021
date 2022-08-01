@@ -282,8 +282,43 @@ function About() {
     },
     {
       column_size: "col-sm-2",
-      icon_class: "fas fa-code-simple",
+      icon_class: "fas fa-database",
       description: "PostgreSQL",
+    },
+    {
+      column_size: "col-sm-2",
+      icon_class: "fas fa-code",
+      description: "ExpressJS + Axios",
+    },
+    {
+      column_size: "col-sm-2",
+      icon_class: "fas fa-code",
+      description: "NodeJS",
+    },
+    {
+      column_size: "col-sm-2",
+      icon_class: "fas fa-code",
+      description: "Redux",
+    },
+    {
+      column_size: "col-sm-2",
+      icon_class: "fas fa-code",
+      description: "Firebase",
+    },
+    {
+      column_size: "col-sm-2",
+      icon_class: "fas fa-code",
+      description: "Heroku",
+    },
+    {
+      column_size: "col-sm-2",
+      icon_class: "fas fa-code",
+      description: "REST APIs",
+    },
+    {
+      column_size: "col-sm-2",
+      icon_class: "fas fa-code",
+      description: "GitHub",
     },
   ];
 
@@ -306,18 +341,18 @@ function About() {
         <div className="row align-items-center my-5">
           <h1 className="font-weight-light text-center">About</h1>
 
-          <h2>Languages & Frameworks</h2>
+          <h2>Skills</h2>
 
           <div className="mb-5">
             <div className="row align-items-center text-center proficient-icons">
-              <div className="col-sm-8 align-items-center text-center languages">
+              <div className="col-sm-12 align-items-center text-center languages">
                 <div className="row align-items-center text-center">
                   <h5>Proficient</h5>
                   <LanguagesAndFrameworks languagesAndFrameworks={proficient} />
                 </div>
               </div>
 
-              <div className="col-sm-4 align-items-center text-center languages familiar-icons">
+              <div className="col-sm-12 align-items-center text-center languages familiar-icons mt-4">
                 <div className="row align-items-center text-center">
                   <h5>Developing Understanding</h5>
                   <LanguagesAndFrameworks

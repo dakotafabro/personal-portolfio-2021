@@ -7,9 +7,7 @@ const LanguagesAndFrameworks = ({ languagesAndFrameworks }) => {
         return (
           <div className={language.column_size}>
             <i class={language.icon_class}></i>
-            <p>
-              <small>{language.description}</small>
-            </p>
+            <p>{language.description}</p>
           </div>
         );
       })}
