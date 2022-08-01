@@ -282,7 +282,7 @@ function About() {
     },
     {
       column_size: "col-sm-2",
-      icon_class: "fas fa-database",
+      icon_class: "fa-solid fa-code-simple",
       description: "PostgreSQL",
     },
   ];
