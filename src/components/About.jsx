@@ -270,19 +270,24 @@ function About() {
       icon_class: "fab fa-bootstrap",
       description: "Bootstrap",
     },
-  ];
-
-  const developingUnderstanding = [
     {
-      column_size: "col-sm-3",
+      column_size: "col-sm-2",
       icon_class: "fab fa-git-alt",
       description: "Git",
     },
     {
-      column_size: "col-sm-3",
+      column_size: "col-sm-2",
       icon_class: "fas fa-database",
       description: "SQL",
     },
+    {
+      column_size: "col-sm-2",
+      icon_class: "fas fa-database",
+      description: "PostgreSQL",
+    },
+  ];
+
+  const developingUnderstanding = [
     {
       column_size: "col-sm-3",
       icon_class: "fab fa-unity",
