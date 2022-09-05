@@ -5,6 +5,17 @@ import "./Work.css";
 function Work() {
   const workExperience = [
     {
+      id: "workitem7",
+      title:
+        "The Margaret Hamilton Academy of JavaScript - School CRM - Fullstack Web App",
+      description:
+        "A school CRM that tracks student information and their associated campuses. Project was built using ReactJS, Redux, PostrgreSQL, Sequelize, NodeJS, ExpressJS, JavaScript, HTML, CSS, and Bootstrap. Website built by me. Ownership belongs to GENESIS STEAM.",
+      image: "https://i.imgur.com/3pvohxq.png",
+      buttonText: "Visit GENESIS iLabs",
+      buttonLink: "https://genesisilabs-communities.org/",
+      year: 2022,
+    },
+    {
       id: "workitem6",
       title: "GENESIS STEAM iLab Resource Platform",
       description:

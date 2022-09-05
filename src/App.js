@@ -10,13 +10,13 @@ import {
   Work,
   Blog,
 } from "./components";
-import ScrollToTop from "./ScrollToTop";
+import BackToTop from "./components/BackToTop";
 
 function App() {
   return (
     <div className="App">
       <Router>
-        <ScrollToTop>
+        <BackToTop>
           <Navigation />
           <Switch>
             <Route path="/" exact component={() => <Home />} />
@@ -26,7 +26,7 @@ function App() {
             <Route path="/blog" exact component={() => <Blog />} />
           </Switch>
           <Footer />
-        </ScrollToTop>
+        </BackToTop>
       </Router>
     </div>
   );

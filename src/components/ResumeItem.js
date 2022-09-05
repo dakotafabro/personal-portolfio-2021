@@ -16,7 +16,7 @@ const ResumeItem = ({ resumeItems }) => {
                     alt={resume.title}
                   />
 
-                  <h5>{resume.title}</h5>
+                  <h5 className="text-center">{resume.title}</h5>
                   <h6 className="text-center">
                     <small>{resume.org}</small>
                   </h6>
