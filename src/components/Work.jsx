@@ -10,7 +10,7 @@ function Work() {
         "The Margaret Hamilton Academy of JavaScript - School CRM - Fullstack Web App",
       description:
         "A school CRM that tracks student information and their associated campuses. Project was built using ReactJS, Redux, PostrgreSQL, Sequelize, NodeJS, ExpressJS, JavaScript, HTML, CSS, and Bootstrap. Website built by me. Ownership belongs to GENESIS STEAM.",
-      image: "https://i.imgur.com/TuCxGf5.png",
+      image: "https://i.imgur.com/ggaxckq.png",
       buttonText: "Project Walkthrough",
       buttonLink: "https://www.youtube.com/watch?v=hBE-DgY083A&t=210s",
       year: 2022,
