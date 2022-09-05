@@ -9,7 +9,7 @@ import LanguagesAndFrameworks from "./LanguagesAndFrameworks";
 function About() {
   const resumeItems = [
     {
-      title: "STEAM Educator",
+      title: "Frontend Developer & Educator",
       org: "GENESIS STEAM",
       logo: "https://i.imgur.com/5wXjXFn.png",
       date: "06/2021 to Present",
@@ -81,7 +81,7 @@ function About() {
       org: "The Grace Hopper Program @ Fullstack Academy",
       logo: "https://i.imgur.com/UYRXdcB.jpg",
       location: "New York, NY",
-      date: "Expected 2022",
+      date: "2022",
       thesis: "N/A",
     },
     {
@@ -89,7 +89,7 @@ function About() {
       org: "Citrus College",
       logo: "https://i.imgur.com/7LxBMaS.jpg",
       location: "Azusa, CA",
-      date: "Expected 2023",
+      date: "2023",
       thesis: "N/A",
     },
     {
@@ -277,6 +277,11 @@ function About() {
     },
     {
       column_size: "col-sm-2",
+      icon_class: "fab fa-github",
+      description: "GitHub",
+    },
+    {
+      column_size: "col-sm-2",
       icon_class: "fas fa-database",
       description: "SQL",
     },
@@ -287,38 +292,33 @@ function About() {
     },
     {
       column_size: "col-sm-2",
-      icon_class: "fas fa-code",
-      description: "ExpressJS + Axios",
+      icon_class: "fas fa-microchip",
+      description: "ExpressJS",
     },
     {
       column_size: "col-sm-2",
-      icon_class: "fas fa-code",
+      icon_class: "fab fa-node",
       description: "NodeJS",
     },
     {
       column_size: "col-sm-2",
-      icon_class: "fas fa-code",
+      icon_class: "fas fa-retweet",
       description: "Redux",
     },
     {
       column_size: "col-sm-2",
-      icon_class: "fas fa-code",
+      icon_class: "fas fa-database",
       description: "Firebase",
     },
     {
       column_size: "col-sm-2",
-      icon_class: "fas fa-code",
+      icon_class: "fas fa-cloud",
       description: "Heroku",
     },
     {
       column_size: "col-sm-2",
-      icon_class: "fas fa-code",
+      icon_class: "fas fa-server",
       description: "REST APIs",
-    },
-    {
-      column_size: "col-sm-2",
-      icon_class: "fas fa-code",
-      description: "GitHub",
     },
   ];
 
@@ -341,7 +341,7 @@ function About() {
         <div className="row align-items-center my-5">
           <h1 className="font-weight-light text-center">About</h1>
 
-          <h2>Skills</h2>
+          <h2>Technical Skills</h2>
 
           <div className="mb-5">
             <div className="row align-items-center text-center proficient-icons">
@@ -354,7 +354,7 @@ function About() {
 
               <div className="col-sm-12 align-items-center text-center languages familiar-icons mt-4">
                 <div className="row align-items-center text-center">
-                  <h5>Developing Understanding</h5>
+                  <h5>Knowledgeable</h5>
                   <LanguagesAndFrameworks
                     languagesAndFrameworks={developingUnderstanding}
                   />

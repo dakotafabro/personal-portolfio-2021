@@ -51,16 +51,15 @@ function Home() {
                 (they/she)
               </a>
             </h1>
-            <h3>Upcoming Software Engineer</h3>
+            <h3>Software Engineer</h3>
             <h5>
               <em>Based in Los Angeles, CA</em> 🇺🇸 🇵🇭
             </h5>
             <p className="mb-5">
-              I recently left education to pursue a career in software
-              engineering. As a recipient of the 2022 Edie Windsor Scholarship
-              through Lesbians Who Tech, I am currently attending The Grace
-              Hopper Program @ Fullstack Academy with a graduation date of
-              September 2022.
+              As a recipient of the 2022 Edie Windsor Scholarship through
+              Lesbians Who Tech, I have progressed from Education to Software
+              Engineering. I am a graduate of The Grace Hopper Program @
+              Fullstack Academy in New York, NY.
               <br />
               <br />
               My aim as a software engineer is to help users reach their ideas
@@ -71,7 +70,7 @@ function Home() {
               <br />
               <a
                 className="m-2"
-                href="https://drive.google.com/file/d/1KOVtbWCc82e46g2BMa4ibcNrfahsnuoZ/view?usp=sharing"
+                href="https://drive.google.com/file/d/1pjZJ8Z5SWGtqGEWzKmma7eBOISmDjo9R/view?usp=sharing"
                 alt="Download/View Resume"
               >
                 <button className="download-resume">Download Resume</button>
@@ -86,7 +85,7 @@ function Home() {
         <div className="row align-items-top mb-5 near-footer">
           {homePageInfo.map((homePage) => {
             return (
-              <div key={homePage.id} className="col-sm-4 p-2">
+              <div key={homePage.id} className="col-sm-6 p-2">
                 <h4>{homePage.title}</h4>
                 <p>
                   {homePage.description}
@@ -100,7 +99,7 @@ function Home() {
             );
           })}
 
-          <div key="home1" className="col-sm-4 p-2">
+          {/* <div key="home1" className="col-sm-4 p-2">
             <h4>Google Certified Educator</h4>
             <p>
               Software Engineering relies heavily on continual learning as well
@@ -120,7 +119,7 @@ function Home() {
                 <button>See Teaching Portfolio</button>
               </a>
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
