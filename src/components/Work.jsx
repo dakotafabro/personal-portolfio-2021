@@ -5,7 +5,7 @@ import "./Work.css";
 function Work() {
   const workExperience = [
     {
-      id: "workitem8",
+      id: "workitem9",
       title: "HangOut - Social App - Fullstack Mobile App",
       description:
         "A social app connecting users through community events and activities. Project was built using React Native, Redux, Firebase, JavaScript, HTML, CSS, and Tailwind. Website built during Fullstack Bootcamp by Donna Sayos, Amy Ji, and Me.",
@@ -15,7 +15,7 @@ function Work() {
       year: 2022,
     },
     {
-      id: "workitem7",
+      id: "workitem8",
       title:
         "The Margaret Hamilton Academy of JavaScript - School CRM - Fullstack Web App",
       description:
@@ -26,7 +26,7 @@ function Work() {
       year: 2022,
     },
     {
-      id: "workitem6",
+      id: "workitem7",
       title: "GENESIS STEAM iLab Resource Platform",
       description:
         "A static resource platform built for GENESIS STEAM's Innovator Program. Site is used across various schools sites within LAUSD. Project was built using ReactJS, JavaScript, HTML, and CSS. Website built for work.",
@@ -36,13 +36,23 @@ function Work() {
       year: 2022,
     },
     {
-      id: "workitem5",
-      title: "Self-Care Assistant",
+      id: "workitem6",
+      title: "Self-Care Assistant - Fullstack Web App",
       description:
         "Sometimes thinking of something to do for self-care or getting oneself out of a rut can be hard. Self-Care Assistant is here to help! This project features self-care, personal, and work suggestions when it's too hard to think of what to do on one's own with the click of a button. Project was built using JavaScript, HTML, CSS, and The Bored API. Website built for fun!",
       image: "https://i.imgur.com/r3Iq2Ma.png",
       buttonText: "Let Us Suggest Something",
       buttonLink: "https://self-care-assistant.netlify.app/",
+      year: 2022,
+    },
+    {
+      id: "workitem5",
+      title: "Guessing Game - Frontend - VanillaJS",
+      description:
+        "Can you guess the number? Project was built using JavaScript, HTML, CSS, and Bootstrap. Website built during Fullstack Bootcamp.",
+      image: "https://i.imgur.com/3M9rwrq.png",
+      buttonText: "Take a Guess",
+      buttonLink: "https://df-guessinggame.netlify.app/",
       year: 2022,
     },
     {
