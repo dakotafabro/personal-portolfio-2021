@@ -4,10 +4,11 @@
   --dakota-blue: #207cdb;
 }
 
-footer {
+.Footer {
   background-color: var(--dakota-gray);
   font-family: "Arvo", serif;
   color: #fff !important;
+  margin-bottom: 0;
 }
 
 .footer-link {

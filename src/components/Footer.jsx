@@ -3,55 +3,53 @@ import "./Footer.css";
 
 function Footer() {
   return (
-    <>
-      <footer class="fixed-bottom">
-        <div class="container">
-          <p class="text-center text-white footer-content">
-            <span className="d-flex flex-row justify-content-center social-media-icons">
+    <div className="Footer fixed-bottom">
+      <div className="container">
+        <p className="text-center text-white footer-content">
+          <span className="d-flex flex-row justify-content-center social-media-icons">
+            <a
+              className="nav-link d-flex justify-content-center"
+              href="https://www.linkedin.com/in/dakotafabro/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fab fa-linkedin"></i>
+            </a>
+            <a
+              className="nav-link d-flex justify-content-center"
+              href="https://github.com/dakotafabro"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fab fa-github"></i>
+            </a>
+            <a
+              className="nav-link d-flex justify-content-center"
+              href="https://www.instagram.com/kodingkoda/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fab fa-instagram"></i>
+            </a>
+          </span>
+          Copyright &copy; Dakota Fabro 2022
+          <br />
+          <small>
+            <em>
+              Built with{" "}
               <a
-                class="nav-link d-flex justify-content-center"
-                href="https://www.linkedin.com/in/dakotafabro/"
+                className="footer-link"
+                href="https://reactjs.org/"
                 target="_blank"
                 rel="noreferrer"
               >
-                <i class="fab fa-linkedin"></i>
+                ReactJS
               </a>
-              <a
-                class="nav-link d-flex justify-content-center"
-                href="https://github.com/dakotafabro"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <i class="fab fa-github"></i>
-              </a>
-              <a
-                class="nav-link d-flex justify-content-center"
-                href="https://www.instagram.com/kodingkoda/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <i class="fab fa-instagram"></i>
-              </a>
-            </span>
-            Copyright &copy; Dakota Fabro 2022
-            <br />
-            <small>
-              <em>
-                Built with{" "}
-                <a
-                  className="footer-link"
-                  href="https://reactjs.org/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  ReactJS
-                </a>
-              </em>
-            </small>
-          </p>
-        </div>
-      </footer>
-    </>
+            </em>
+          </small>
+        </p>
+      </div>
+    </div>
   );
 }
 
