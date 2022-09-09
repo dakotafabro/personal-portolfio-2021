@@ -70,8 +70,10 @@ function Home() {
               <br />
               <a
                 className="m-2"
-                href="https://drive.google.com/file/d/1pjZJ8Z5SWGtqGEWzKmma7eBOISmDjo9R/view?usp=sharing"
+                href="https://drive.google.com/file/d/145Ueofuxb2h-IpgPU0u-OuYBy1zqO9ZB/view?usp=sharing"
                 alt="Download/View Resume"
+                target="_blank"
+                rel="noreferrer"
               >
                 <button className="download-resume">Download Resume</button>
               </a>
