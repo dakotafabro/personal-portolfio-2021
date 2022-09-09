@@ -19,7 +19,7 @@ function Work() {
       title:
         "The Margaret Hamilton Academy of JavaScript - School CRM - Fullstack Web App",
       description:
-        "A school CRM that tracks student information and their associated campuses. Project was built using ReactJS, Redux, PostrgreSQL, Sequelize, NodeJS, ExpressJS, JavaScript, HTML, CSS, and Bootstrap. Website built during Fullstack Bootcamp by me.",
+        "A school CRM that tracks student information and their associated campuses. Project was built using ReactJS, Redux, PostrgreSQL, Sequelize, NodeJS, ExpressJS, JavaScript, HTML, CSS, and Bootstrap. Website built during Fullstack Bootcamp.",
       image: "https://i.imgur.com/ggaxckq.png",
       buttonText: "Project Walkthrough",
       buttonLink: "https://www.youtube.com/watch?v=hBE-DgY083A&t=210s",
@@ -29,7 +29,7 @@ function Work() {
       id: "workitem6",
       title: "GENESIS STEAM iLab Resource Platform",
       description:
-        "A static resource platform built for GENESIS STEAM's Innovator Program. Site is used across various schools sites within LAUSD. Project was built using ReactJS, JavaScript, HTML, and CSS. Website built by me. Ownership belongs to GENESIS STEAM.",
+        "A static resource platform built for GENESIS STEAM's Innovator Program. Site is used across various schools sites within LAUSD. Project was built using ReactJS, JavaScript, HTML, and CSS. Website built for work.",
       image: "https://i.imgur.com/3pvohxq.png",
       buttonText: "Visit GENESIS iLabs",
       buttonLink: "https://genesisilabs-communities.org/",
