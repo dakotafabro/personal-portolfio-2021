@@ -68,6 +68,10 @@ function Home() {
               workers, and learners as a result of the pandemic.
               <br />
               <br />
+              Frontend: ReactJS, React Native, HTML, CSS, Javascript, Bootstrap
+              <br />
+              Backend: Firebase, PostgreSQL, Express, Node, Redux, Heroku,
+              Sequelize
               <a
                 className="m-2"
                 href="https://drive.google.com/file/d/145Ueofuxb2h-IpgPU0u-OuYBy1zqO9ZB/view?usp=sharing"
