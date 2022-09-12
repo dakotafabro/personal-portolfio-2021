@@ -37,6 +37,7 @@ const WorkItem = ({ work }) => {
                 <small>{work.year}</small>
               </p>
             </div>
+            <hr />
           </>
         );
       })}

@@ -66,12 +66,14 @@ function Home() {
               by creating web tools that are useful and streamlined--all while
               being responsive to the heightened demands placed on creators,
               workers, and learners as a result of the pandemic.
+              <hr />
+              <strong>Frontend:</strong> ReactJS, React Native, HTML, CSS,
+              Javascript, Bootstrap
+              <br />
+              <strong>Backend:</strong> Firebase, PostgreSQL, Express, Node,
+              Redux, Heroku, Sequelize
               <br />
               <br />
-              Frontend: ReactJS, React Native, HTML, CSS, Javascript, Bootstrap
-              <br />
-              Backend: Firebase, PostgreSQL, Express, Node, Redux, Heroku,
-              Sequelize
               <a
                 className="m-2"
                 href="https://drive.google.com/file/d/145Ueofuxb2h-IpgPU0u-OuYBy1zqO9ZB/view?usp=sharing"
