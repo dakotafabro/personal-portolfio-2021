@@ -56,10 +56,17 @@ function Home() {
               <em>Based in Los Angeles, CA</em> 🇺🇸 🇵🇭
             </h5>
             <p className="mb-5">
-              As a recipient of the 2022 Edie Windsor Scholarship through
-              Lesbians Who Tech, I have progressed from Education to Software
-              Engineering. I am a graduate of The Grace Hopper Program @
-              Fullstack Academy in New York, NY.
+              As a recipient of the 2022{" "}
+              <a
+                href="https://lesbianswhotech.org/codingscholarship/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Edie Windsor Scholarship
+              </a>{" "}
+              through Lesbians Who Tech, I have progressed from Education to
+              Software Engineering. I am a graduate of The Grace Hopper Program
+              @ Fullstack Academy in New York, NY.
               <br />
               <br />
               My aim as a software engineer is to help users reach their ideas
