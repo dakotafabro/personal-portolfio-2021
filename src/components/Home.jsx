@@ -90,6 +90,14 @@ function Home() {
               >
                 <button className="download-resume">Download Resume</button>
               </a>
+              <a
+                href="https://dot.cards/dakotafabro"
+                target="_blank"
+                rel="noreferrer"
+                className="m-2"
+              >
+                <button>Virtual Business Card</button>
+              </a>
               <Link to="/contact" title="Contact">
                 <button>Contact Me</button>
               </Link>
