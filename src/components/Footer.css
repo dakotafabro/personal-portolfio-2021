@@ -1,14 +1,18 @@
 :root {
   --dakota-yellow: #ffbd59;
   --dakota-gray: #545454;
-  --dakota-blue: #207cdb;
+  --dakota-blue: #1f86ec;
 }
 
 .Footer {
-  background-color: var(--dakota-gray);
+  background-color: var(--background);
   font-family: "Arvo", serif;
-  color: #fff !important;
+  color: var(--dakota-blue) !important;
   margin-bottom: 0;
+}
+
+.footer-icon {
+  color: var(--dakota-blue) !important;
 }
 
 .footer-link {

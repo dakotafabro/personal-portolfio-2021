@@ -5,10 +5,10 @@ function Footer() {
   return (
     <div className="Footer fixed-bottom">
       <div className="container">
-        <p className="text-center text-white footer-content">
+        <p className="text-center footer-content">
           <span className="d-flex flex-row justify-content-center social-media-icons">
             <a
-              className="nav-link d-flex justify-content-center"
+              className="nav-link d-flex justify-content-center footer-icon"
               href="https://www.linkedin.com/in/dakotafabro/"
               target="_blank"
               rel="noreferrer"
@@ -16,7 +16,7 @@ function Footer() {
               <i className="fab fa-linkedin"></i>
             </a>
             <a
-              className="nav-link d-flex justify-content-center"
+              className="nav-link d-flex justify-content-center footer-icon"
               href="https://github.com/dakotafabro"
               target="_blank"
               rel="noreferrer"
@@ -24,7 +24,7 @@ function Footer() {
               <i className="fab fa-github"></i>
             </a>
             <a
-              className="nav-link d-flex justify-content-center"
+              className="nav-link d-flex justify-content-center footer-icon"
               href="https://www.instagram.com/kodingkoda/"
               target="_blank"
               rel="noreferrer"
@@ -32,8 +32,7 @@ function Footer() {
               <i className="fab fa-instagram"></i>
             </a>
           </span>
-          Copyright &copy; Dakota Fabro 2022
-          <br />
+          &copy; Dakota Fabro 2022 --{" "}
           <small>
             <em>
               Built with{" "}

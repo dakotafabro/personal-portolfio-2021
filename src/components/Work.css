@@ -1,6 +1,10 @@
 img.work {
   border-radius: 20px !important;
-  padding: 10px !important;
+  padding: 5px !important;
+}
+
+.workitem-img {
+  background: var(--background);
 }
 
 .work {

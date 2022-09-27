@@ -7,6 +7,7 @@ img.resume-photo {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   padding: 20px 10px;
   border-radius: 20px;
+  border: solid 1px var(--background);
 }
 
 @media (max-width: 576px) {

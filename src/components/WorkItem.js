@@ -9,7 +9,7 @@ const WorkItem = ({ work }) => {
           <>
             <div id={work.id} className="col-sm-5">
               <img
-                className="img-fluid mb-4 shadow"
+                className="img-fluid mb-4 shadow workitem-img"
                 src={work.image}
                 alt={work.title}
               />
