@@ -1,7 +1,9 @@
 :root {
   --dakota-yellow: #ffbd59;
   --dakota-gray: #545454;
-  --dakota-blue: #207cdb;
+  --dakota-gray2: #2b2b2b;
+  --dakota-blue: #1f86ec;
+  --background: #efefef;
 }
 
 html,
@@ -16,7 +18,8 @@ body {
 body {
   margin: 0;
   font-family: "Lato", sans-serif;
-  background-color: #efefef;
+  background-color: var(--dakota-gray2);
+  color: var(--background);
 }
 
 h1,
@@ -26,7 +29,7 @@ h4,
 h5,
 h6 {
   font-family: "Arvo", serif;
-  color: var(--dakota-gray);
+  color: var(--dakota-yellow);
   margin-bottom: 15px;
 }
 

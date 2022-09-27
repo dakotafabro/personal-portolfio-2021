@@ -1,11 +1,11 @@
 :root {
   --dakota-yellow: #ffbd59;
   --dakota-gray: #545454;
-  --dakota-blue: #207cdb;
+  --dakota-blue: #1f86ec;
 }
 
 .nav-logo {
-  height: 75px;
+  height: 60px;
   width: auto;
 }
 
