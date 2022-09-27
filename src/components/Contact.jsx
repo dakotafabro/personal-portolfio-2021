@@ -3,10 +3,10 @@ import { CopyToClipboard } from "react-copy-to-clipboard";
 import "./Contact.css";
 
 function Contact() {
-  const [email, setEmail] = useState("dakotafabrocgu@gmail.com");
+  const [email, setEmail] = useState("dakotafabrodev@gmail.com");
 
   const copyEmail = () => {
-    setEmail("dakotafabrocgu@gmail.com");
+    setEmail("dakotafabrodev@gmail.com");
     alert("Email copied to clipboard. I look forward to hearing from you! 🧑🏽‍💻");
   };
 
@@ -29,7 +29,7 @@ function Contact() {
                 <br />
                 <CopyToClipboard text={email}>
                   <button className="email-link" onClick={copyEmail}>
-                    dakotafabrocgu@gmail.com
+                    dakotafabrodev@gmail.com
                   </button>
                 </CopyToClipboard>
                 <br />
