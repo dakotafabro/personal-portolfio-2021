@@ -32,7 +32,7 @@ function Footer() {
               <i className="fab fa-instagram"></i>
             </a>
           </span>
-          &copy; Dakota Fabro {new Date().getFullYear()} --{" "}
+          &copy; Dakota Fabro {new Date().getFullYear()} ||{" "}
           <small>
             <em>
               Built with{" "}

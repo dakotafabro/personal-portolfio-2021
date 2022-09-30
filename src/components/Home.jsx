@@ -76,6 +76,10 @@ function Home() {
               by creating web tools that are useful and streamlined--all while
               being responsive to the heightened demands placed on creators,
               workers, and learners as a result of the pandemic.
+              <br />
+              <br />
+              I specialize in the PERN and FERN tech stacks, but am dedicated to
+              learning new technology as curiosity drives me.
               <hr />
               <strong>💻 Frontend:</strong> ReactJS, React Native, HTML, CSS,
               Javascript, Bootstrap
