@@ -352,14 +352,14 @@ function About() {
             <div className="row align-items-center text-center proficient-icons">
               <div className="col-sm-12 align-items-center text-center languages">
                 <div className="row align-items-center text-center">
-                  <h5>Proficient</h5>
+                  <h3>Proficient</h3>
                   <LanguagesAndFrameworks languagesAndFrameworks={proficient} />
                 </div>
               </div>
 
               <div className="col-sm-12 align-items-center text-center languages familiar-icons mt-4">
                 <div className="row align-items-center text-center">
-                  <h5>Knowledgeable</h5>
+                  <h3>Knowledgeable</h3>
                   <LanguagesAndFrameworks
                     languagesAndFrameworks={developingUnderstanding}
                   />
