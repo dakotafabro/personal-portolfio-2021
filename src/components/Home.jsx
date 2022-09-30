@@ -74,10 +74,10 @@ function Home() {
               being responsive to the heightened demands placed on creators,
               workers, and learners as a result of the pandemic.
               <hr />
-              <strong>Frontend:</strong> ReactJS, React Native, HTML, CSS,
+              <strong>💻 Frontend:</strong> ReactJS, React Native, HTML, CSS,
               Javascript, Bootstrap
               <br />
-              <strong>Backend:</strong> Firebase, PostgreSQL, Express, Node,
+              <strong>🔐 Backend:</strong> Firebase, PostgreSQL, Express, Node,
               Redux, Heroku, Sequelize
               <br />
               <br />
@@ -99,7 +99,7 @@ function Home() {
                 <button>Virtual Business Card</button>
               </a>
               <Link to="/contact" title="Contact">
-                <button>Contact Me</button>
+                <button className="contact-btn">Contact Me</button>
               </Link>
             </p>
           </div>
