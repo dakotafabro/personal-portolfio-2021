@@ -74,10 +74,10 @@ function Home() {
               being responsive to the heightened demands placed on creators,
               workers, and learners as a result of the pandemic.
               <hr />
-              <strong>Frontend:</strong> ReactJS, React Native, HTML, CSS,
+              <strong>💻 Frontend:</strong> ReactJS, React Native, HTML, CSS,
               Javascript, Bootstrap
               <br />
-              <strong>Backend:</strong> Firebase, PostgreSQL, Express, Node,
+              <strong>🔐 Backend:</strong> Firebase, PostgreSQL, Express, Node,
               Redux, Heroku, Sequelize
               <br />
               <br />
