@@ -35,7 +35,7 @@ function Home() {
           <div class="col-sm-5 headshot-container">
             <img
               class="img-fluid headshot shadow"
-              src="https://i.imgur.com/qMHXvL0.jpg"
+              src="https://i.imgur.com/JMBukrz.png"
               alt="Dakota Fabro"
             />
           </div>
