@@ -99,7 +99,7 @@ function Home() {
                 <button>Virtual Business Card</button>
               </a>
               <Link to="/contact" title="Contact">
-                <button className="contact-btn">Contact Me</button>
+                <button className="contact-btn m-2">Contact Me</button>
               </Link>
             </p>
           </div>

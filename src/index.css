@@ -18,8 +18,9 @@ body {
 body {
   margin: 0;
   font-family: "Lato", sans-serif;
-  background-color: var(--dakota-gray2);
+  /* background-color: var(--dakota-gray2); */
   color: var(--background);
+  background-image: url("https://i.imgur.com/3Eop1tZ.jpg");
 }
 
 h1,
@@ -30,6 +31,14 @@ h5,
 h6 {
   font-family: "Arvo", serif;
   color: var(--dakota-yellow);
+  margin-bottom: 15px;
+}
+
+h4,
+h5,
+h6 {
+  font-family: "Arvo", serif;
+  color: var(--dakota-gray);
   margin-bottom: 15px;
 }
 
