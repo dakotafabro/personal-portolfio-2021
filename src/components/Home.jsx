@@ -109,7 +109,7 @@ function Home() {
           {homePageInfo.map((homePage) => {
             return (
               <div key={homePage.id} className="col-sm-6 p-2">
-                <h4>{homePage.title}</h4>
+                <h3>{homePage.title}</h3>
                 <p>
                   {homePage.description}
                   <br />
