@@ -83,7 +83,7 @@ function Home() {
               <br />
               <a
                 className="m-2"
-                href="https://drive.google.com/file/d/145Ueofuxb2h-IpgPU0u-OuYBy1zqO9ZB/view?usp=sharing"
+                href="https://drive.google.com/file/d/1xb0E9Ic1pKpq35r9g4jjrXgmbMqh_-gi/view?usp=sharing"
                 alt="Download/View Resume"
                 target="_blank"
                 rel="noreferrer"
