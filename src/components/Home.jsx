@@ -51,10 +51,13 @@ function Home() {
                 (they/she)
               </a>
             </h1>
-            <h3>Software Engineer</h3>
-            <h5>
-              <em>Based in Los Angeles, CA</em> 🇺🇸 🇵🇭
-            </h5>
+            <h2>
+              Software Engineer -{" "}
+              <em>
+                <small>Los Angeles, CA</small>
+              </em>{" "}
+              🇺🇸 🇵🇭
+            </h2>
             <p className="mb-5">
               As a recipient of the 2022{" "}
               <a
