@@ -51,10 +51,13 @@ function Home() {
                 (they/she)
               </a>
             </h1>
-            <h3>Software Engineer</h3>
-            <h5>
-              <em>Based in Los Angeles, CA</em> 🇺🇸 🇵🇭
-            </h5>
+            <h2>
+              Software Engineer -{" "}
+              <em>
+                <small>Los Angeles, CA</small>
+              </em>{" "}
+              🇺🇸 🇵🇭
+            </h2>
             <p className="mb-5">
               As a recipient of the 2022{" "}
               <a
@@ -73,6 +76,10 @@ function Home() {
               by creating web tools that are useful and streamlined--all while
               being responsive to the heightened demands placed on creators,
               workers, and learners as a result of the pandemic.
+              <br />
+              <br />
+              I specialize in the PERN and FERN tech stacks, but am dedicated to
+              learning new technology as curiosity drives me.
               <hr />
               <strong>💻 Frontend:</strong> ReactJS, React Native, HTML, CSS,
               Javascript, Bootstrap
