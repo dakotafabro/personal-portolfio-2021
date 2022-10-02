@@ -84,6 +84,7 @@ function Home() {
               <strong>💻 Frontend:</strong> ReactJS, React Native, HTML, CSS,
               Javascript, Bootstrap
               <br />
+              <br />
               <strong>🔐 Backend:</strong> Firebase, PostgreSQL, Express, Node,
               Redux, Heroku, Sequelize
               <br />
