@@ -12,8 +12,8 @@ function About() {
       title: "Frontend Developer & Educator",
       org: "GENESIS STEAM",
       logo: "https://i.imgur.com/5wXjXFn.png",
-      date: "06/2021 to Present",
-      current: true,
+      date: "2021 to 2022",
+      current: false,
       location: "Los Angeles, CA",
       skills: [
         "Project Management",
@@ -344,7 +344,9 @@ function About() {
     <div className="about near-top">
       <div className="container">
         <div className="row align-items-center my-5">
-          <h1 className="font-weight-light text-center">About</h1>
+          <h1 className="font-weight-light text-center">
+            Skills + Work History
+          </h1>
 
           <h2>Technical Skills</h2>
 
