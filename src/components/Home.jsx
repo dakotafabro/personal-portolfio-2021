@@ -3,30 +3,30 @@ import "./Home.css";
 import { Link, withRouter } from "react-router-dom";
 
 function Home() {
-  const homePageInfo = [
-    {
-      id: "home3",
-      title: "EDU + Front-End Development",
-      description:
-        "As a former educator, I know what assessment data teachers want to see and how they want to use it. I know what students want out of learning tools. They want to be engaged, challenged, and enjoy their work--without the hassle of user interface confusion. As the landscape of education evolves, so too should our tech.",
-      button: "See About Me",
-      toLink: "/about",
-      titleToLink: "About",
-      link: null,
-      type: "Link",
-    },
-    {
-      id: "home2",
-      title: "UX/UI & Front-End Development",
-      description:
-        "As a former educator, I found myself asking 'How can this app/web-based learning tool be more effective for the students using it?'. I learned how to code to understand the other side of the learning tools being used in the classroom. I now have the skills needed to create responsive web-based applications and aim to apply these skills to improve the way users interact with learning platforms and other web-based tools.",
-      button: "See Developer Portfolio",
-      toLink: "/work",
-      titleToLink: "Work",
-      link: null,
-      type: "Link",
-    },
-  ];
+  // const homePageInfo = [
+  //   {
+  //     id: "home3",
+  //     title: "EDU + Front-End Development",
+  //     description:
+  //       "As a former educator, I know what assessment data teachers want to see and how they want to use it. I know what students want out of learning tools. They want to be engaged, challenged, and enjoy their work--without the hassle of user interface confusion. As the landscape of education evolves, so too should our tech.",
+  //     button: "See About Me",
+  //     toLink: "/about",
+  //     titleToLink: "About",
+  //     link: null,
+  //     type: "Link",
+  //   },
+  //   {
+  //     id: "home2",
+  //     title: "UX/UI & Front-End Development",
+  //     description:
+  //       "As a former educator, I found myself asking 'How can this app/web-based learning tool be more effective for the students using it?'. I learned how to code to understand the other side of the learning tools being used in the classroom. I now have the skills needed to create responsive web-based applications and aim to apply these skills to improve the way users interact with learning platforms and other web-based tools.",
+  //     button: "See Developer Portfolio",
+  //     toLink: "/work",
+  //     titleToLink: "Work",
+  //     link: null,
+  //     type: "Link",
+  //   },
+  // ];
 
   return (
     <div className="home near-top">
@@ -89,7 +89,7 @@ function Home() {
               <br />
               <br />
               <a
-                className="m-2"
+                className="m-1"
                 href="https://drive.google.com/file/d/1xb0E9Ic1pKpq35r9g4jjrXgmbMqh_-gi/view?usp=sharing"
                 alt="Download/View Resume"
                 target="_blank"
@@ -101,18 +101,21 @@ function Home() {
                 href="https://dot.cards/dakotafabro"
                 target="_blank"
                 rel="noreferrer"
-                className="m-2"
+                className="m-1"
               >
-                <button>Virtual Business Card</button>
+                <button>Contact</button>
               </a>
-              <Link to="/contact" title="Contact">
-                <button className="contact-btn m-2">Contact Me</button>
+              <Link to="/about" title="About">
+                <button className="m-1">Skills + Work History</button>
+              </Link>
+              <Link to="/work" title="Work">
+                <button className="m-1">Projects</button>
               </Link>
             </p>
           </div>
         </div>
 
-        <div className="row align-items-top mb-5 near-footer">
+        {/* <div className="row align-items-top mb-5 near-footer">
           {homePageInfo.map((homePage) => {
             return (
               <div key={homePage.id} className="col-sm-6 p-2">
@@ -129,7 +132,7 @@ function Home() {
             );
           })}
 
-          {/* <div key="home1" className="col-sm-4 p-2">
+          <div key="home1" className="col-sm-4 p-2">
             <h4>Google Certified Educator</h4>
             <p>
               Software Engineering relies heavily on continual learning as well
@@ -149,8 +152,8 @@ function Home() {
                 <button>See Teaching Portfolio</button>
               </a>
             </p>
-          </div> */}
-        </div>
+          </div>
+        </div> */}
       </div>
     </div>
   );
