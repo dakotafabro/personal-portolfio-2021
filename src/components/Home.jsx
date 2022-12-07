@@ -3,31 +3,6 @@ import "../css/Home.css";
 import { Link, withRouter } from "react-router-dom";
 
 function Home() {
-  // const homePageInfo = [
-  //   {
-  //     id: "home3",
-  //     title: "EDU + Front-End Development",
-  //     description:
-  //       "As a former educator, I know what assessment data teachers want to see and how they want to use it. I know what students want out of learning tools. They want to be engaged, challenged, and enjoy their work--without the hassle of user interface confusion. As the landscape of education evolves, so too should our tech.",
-  //     button: "See About Me",
-  //     toLink: "/about",
-  //     titleToLink: "About",
-  //     link: null,
-  //     type: "Link",
-  //   },
-  //   {
-  //     id: "home2",
-  //     title: "UX/UI & Front-End Development",
-  //     description:
-  //       "As a former educator, I found myself asking 'How can this app/web-based learning tool be more effective for the students using it?'. I learned how to code to understand the other side of the learning tools being used in the classroom. I now have the skills needed to create responsive web-based applications and aim to apply these skills to improve the way users interact with learning platforms and other web-based tools.",
-  //     button: "See Developer Portfolio",
-  //     toLink: "/work",
-  //     titleToLink: "Work",
-  //     link: null,
-  //     type: "Link",
-  //   },
-  // ];
-
   return (
     <div className="home near-top">
       <div class="container">
@@ -115,46 +90,6 @@ function Home() {
             </p>
           </div>
         </div>
-
-        {/* <div className="row align-items-top mb-5 near-footer">
-          {homePageInfo.map((homePage) => {
-            return (
-              <div key={homePage.id} className="col-sm-6 p-2">
-                <h3>{homePage.title}</h3>
-                <p>
-                  {homePage.description}
-                  <br />
-                  <br />
-                  <Link to={homePage.toLink} title={homePage.titleToLink}>
-                    <button>{homePage.button}</button>
-                  </Link>
-                </p>
-              </div>
-            );
-          })}
-
-          <div key="home1" className="col-sm-4 p-2">
-            <h4>Google Certified Educator</h4>
-            <p>
-              Software Engineering relies heavily on continual learning as well
-              as collaborating with other engineers. Being able to know your
-              audience and teach other engineers is a skill that requires
-              patience and a deep understanding of how learning happens. My
-              experience as a former educator translates well to engineering in
-              regards to my own continual learning and fostering growth in the
-              members of any teams on which I may find myself.
-              <br />
-              <br />
-              <a
-                href="https://fabrofotip2020.weebly.com/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <button>See Teaching Portfolio</button>
-              </a>
-            </p>
-          </div>
-        </div> */}
       </div>
     </div>
   );
