@@ -91,7 +91,7 @@ function Home() {
               <br />
               <a
                 className="m-1"
-                href="https://drive.google.com/file/d/1xb0E9Ic1pKpq35r9g4jjrXgmbMqh_-gi/view?usp=sharing"
+                href="https://drive.google.com/file/d/1A9u45Voij_mqYVraP6NOrf9iN2s_x_jy/view?usp=share_link"
                 alt="Download/View Resume"
                 target="_blank"
                 rel="noreferrer"
