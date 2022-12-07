@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { CopyToClipboard } from "react-copy-to-clipboard";
-import "./Contact.css";
+import "../css/Contact.css";
 
 function Contact() {
   const [email, setEmail] = useState("dakotafabrodev@gmail.com");

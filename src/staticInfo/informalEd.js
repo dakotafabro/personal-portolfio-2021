@@ -1,0 +1,66 @@
+export const informalEd = [
+  {
+    course: "Google IT Support Certificate - In Progress",
+    org: "Google & Coursera",
+    logo: "https://i.imgur.com/VXcfjTU.png",
+    date: "2022",
+    skills: [
+      "Computer Networking & Troubleshooting",
+      "Using Operating Systems Efficiently",
+    ],
+  },
+  {
+    course: "Data Structures & Algorithms - Python",
+    org: "Udemy",
+    logo: "https://i.imgur.com/bfVKCVB.png",
+    date: "2022",
+    skills: [
+      "Linked Lists",
+      "Doubly Linked Lists",
+      "Hash Tables",
+      "Graphs",
+      "Binary Search Trees",
+      "Sorts (Bubble, Merge, Insertion, Selection)",
+      "Object Oriented Programming",
+    ],
+  },
+  {
+    course: "Frontend Development & Programming",
+    org: "Sololearn",
+    logo: "https://i.imgur.com/t6LdZS0.png",
+    date: "2021",
+    skills: [
+      "Web Development (HTML, CSS, Javasript, ReactJS, Redux)",
+      "Python",
+      "SQL",
+      "Data Structures & Algorithms",
+    ],
+  },
+  {
+    course: "React Development",
+    org: "SheCodes Workshops",
+    logo: "https://i.imgur.com/Wbg1Uch.png",
+    date: "2021",
+    skills: [
+      "Web Development (HTML, CSS, Javasript, ReactJS)",
+      "Bootstrap",
+      "SEO",
+      "Hosting",
+      "Git & GitHub",
+    ],
+  },
+  {
+    course: "User Experience (UX): The Ultimate Guide to Usability and UX",
+    org: "Udemy",
+    logo: "https://i.imgur.com/bfVKCVB.png",
+    date: "2021",
+    skills: ["Mapping User Journeys", "Field Data Collection"],
+  },
+  {
+    course: "The Complete App Design Course - UX, UI, and Design Thinking",
+    org: "Udemy",
+    logo: "https://i.imgur.com/bfVKCVB.png",
+    date: "2020",
+    skills: ["UX/UI Design", "Creating Working Prototypes"],
+  },
+];

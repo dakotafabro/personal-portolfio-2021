@@ -1,0 +1,51 @@
+export const professionalAffiliations = [
+  {
+    title: "Edie Windsor Coding Scholarship Recipient",
+    date: "2022",
+    logo: "https://i.imgur.com/IOgPa8W.png",
+    org: "Lesbians Who Tech",
+    location: "Los Angeles, CA",
+  },
+  {
+    title: "Member",
+    date: "2022",
+    logo: "https://i.imgur.com/gLccnOb.png",
+    org: "Women Who Code",
+    location: "Los Angeles, CA",
+  },
+  {
+    title: "Alumni",
+    date: "2021",
+    logo: "https://i.imgur.com/Wbg1Uch.png",
+    org: "SheCodes US Students & Alumni",
+    location: "Worldwide",
+  },
+  {
+    title: "AWBW Facilitator",
+    date: "2021",
+    logo: "https://i.imgur.com/QfnBzh7.png",
+    org: "A Window Between Worlds",
+    location: "Venice, CA",
+  },
+  {
+    title: "Google Certified Educator - Level 2",
+    date: "2019",
+    logo: "https://i.imgur.com/PjHyuqn.png",
+    org: "Google for Education",
+    location: "Palo Alto, CA",
+  },
+  {
+    title: "Cooperative Culture - Committee Chair",
+    date: "2019",
+    logo: "https://i.imgur.com/ac1VDsO.jpg",
+    org: "iEmpire Academy",
+    location: "San Bernardino, CA",
+  },
+  {
+    title: "ITOC Fellow",
+    date: "2019",
+    logo: "https://i.imgur.com/pJwcdMx.jpg",
+    org: "Institute for Teachers of Color Committed to Racial Justice",
+    location: "Riverside, CA",
+  },
+];
