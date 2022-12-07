@@ -1,6 +1,6 @@
 import React from "react";
 import WorkItem from "./WorkItem";
-import "./Work.css";
+import "./css/Work.css";
 
 function Work() {
   const workExperience = [

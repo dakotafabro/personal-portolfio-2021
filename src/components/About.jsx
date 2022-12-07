@@ -1,5 +1,5 @@
 import React from "react";
-import "./About.css";
+import "./css/About.css";
 import ResumeItem from "./ResumeItem";
 import Education from "./Education";
 import ProfessionalAffiliations from "./ProfessionalAffiliations";
