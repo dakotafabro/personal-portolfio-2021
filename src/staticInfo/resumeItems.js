@@ -1,5 +1,45 @@
 export const resumeItems = [
   {
+    title: "Fullstack Web Developer",
+    org: "Dakota Fabro Dev - Freelance",
+    logo: "https://i.imgur.com/lW20ViD.png",
+    date: "2022 to Present",
+    current: true,
+    location: "Los Angeles, CA",
+    skills: [
+      "Front-End Development",
+      "Back-End Development",
+      "Remote Collaboration",
+      "UX/UI Design",
+      "Building Positive Client Rapport",
+    ],
+    duties: [
+      "Wireframe, design, build, and deploy sites based on client needs and pain points using frontend technologies such as ReactJS, HTML, JS, CSS, and CSS libraries",
+      "Ensure security, maintainability, and cloud backups using backend technologies such as Node.js, Express.js, Firebase, and/or PostgreSQL depending on client needs",
+      "Maintain positive working relationships with clientele in need of frontend, backend, and fullstack web development services",
+      "Ensure transparency of workflow by logging working hours, providing clients with frequent updates, and fostering a client/contractor relationship that creates an organic and collaborative design process",
+    ],
+  },
+  {
+    title: "Software Engineer",
+    org: "Fullstack Academy",
+    logo: "https://i.imgur.com/UYRXdcB.jpg",
+    date: "2021 to 2022",
+    current: false,
+    location: "New York, NY",
+    skills: [
+      "Fullstack Web Development",
+      "Test Driven Development",
+      "Remote Collaboration",
+      "Git",
+    ],
+    duties: [
+      "Collaborated remotely with software engineering teams to build fullstack applications using the PERN (PostgreSQL, Express.js, React, Node.js) & FERN (Firebase, Express.js, React, Node.js) stacks",
+      "Implemented online weekly “React Parties” where software devs who needed extra support would attend to clarify React concepts and/or project implementations",
+      "Coordinated and led various group projects by building and monitoring a project timeline to ensure tasks were appropriately delegated, team members felt supported, and deadlines were met in a timely manner without sacrificing product quality",
+    ],
+  },
+  {
     title: "Frontend Developer & Educator",
     org: "GENESIS STEAM",
     logo: "https://i.imgur.com/5wXjXFn.png",
