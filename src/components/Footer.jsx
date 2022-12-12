@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/Footer.css";
+import { footerInfo } from "../staticInfo/footerInfo";
 
 function Footer() {
   return (
@@ -7,30 +8,18 @@ function Footer() {
       <div className="container">
         <p className="text-center footer-content">
           <span className="d-flex flex-row justify-content-center social-media-icons">
-            <a
-              className="nav-link d-flex justify-content-center footer-icon"
-              href="https://www.linkedin.com/in/dakotafabro/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <i className="fab fa-linkedin"></i>
-            </a>
-            <a
-              className="nav-link d-flex justify-content-center footer-icon"
-              href="https://github.com/dakotafabro"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <i className="fab fa-github"></i>
-            </a>
-            <a
-              className="nav-link d-flex justify-content-center footer-icon"
-              href="https://www.instagram.com/kodingkoda/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <i className="fab fa-instagram"></i>
-            </a>
+            {footerInfo.map((item) => {
+              return (
+                <a
+                  className="nav-link d-flex justify-content-center footer-icon"
+                  href={item.link}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i className={item.icon}></i>
+                </a>
+              );
+            })}
           </span>
           &copy; Dakota Fabro {new Date().getFullYear()} ||{" "}
           <small>
