@@ -3,6 +3,7 @@ img.headshot {
   max-height: 450px;
   min-height: 300px;
   border: solid 3px #fff;
+  object-position: left;
 }
 
 .near-top {
