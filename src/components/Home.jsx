@@ -60,8 +60,8 @@ function Home() {
               Javascript, Bootstrap
               <br />
               <br />
-              <strong>🔐 Backend:</strong> Firebase, PostgreSQL, Express, Node,
-              Redux, Heroku, Sequelize
+              <strong>🔐 Backend:</strong> Firebase, MongoDB, PostgreSQL,
+              Express, Node, Redux, Heroku, Sequelize
               <br />
               <br />
               <a
