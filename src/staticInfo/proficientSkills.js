@@ -41,16 +41,6 @@ export const proficient = [
   },
   {
     column_size: "col-sm-2",
-    icon_class: "fas fa-database",
-    description: "SQL",
-  },
-  {
-    column_size: "col-sm-2",
-    icon_class: "fas fa-database",
-    description: "PostgreSQL",
-  },
-  {
-    column_size: "col-sm-2",
     icon_class: "fas fa-microchip",
     description: "ExpressJS",
   },
@@ -68,6 +58,21 @@ export const proficient = [
     column_size: "col-sm-2",
     icon_class: "fas fa-database",
     description: "Firebase",
+  },
+  {
+    column_size: "col-sm-2",
+    icon_class: "fas fa-database",
+    description: "MongoDB",
+  },
+  {
+    column_size: "col-sm-2",
+    icon_class: "fas fa-database",
+    description: "SQL",
+  },
+  {
+    column_size: "col-sm-2",
+    icon_class: "fas fa-database",
+    description: "PostgreSQL",
   },
   {
     column_size: "col-sm-2",

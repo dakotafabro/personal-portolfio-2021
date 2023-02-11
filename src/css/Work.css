@@ -11,6 +11,10 @@ img.work {
   margin-bottom: 150px !important;
 }
 
+.work.near-top {
+  margin-top: 7% !important;
+}
+
 a.work-button {
   color: #fff;
   text-decoration: none;

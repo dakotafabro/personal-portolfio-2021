@@ -16,57 +16,39 @@ function Home() {
           </div>
           <div class="col-sm-7">
             <h1 class="font-weight-light">
-              Dakota Fabro{" "}
+              Hi! I'm Dakota Fabro 👋🏽 🏳️‍🌈 🇵🇭
               <a
                 href="https://www.mypronouns.org/what-and-why"
                 title="What Are Pronouns? Why Do They Matter?"
                 target="_blank"
                 rel="noreferrer"
               >
-                (they/she)
+                <em>
+                  <small>(they/she)</small>
+                </em>
               </a>
             </h1>
-            <h2>
-              Software Engineer -{" "}
-              <em>
-                <small>Los Angeles, CA</small>
-              </em>{" "}
-              🇺🇸 🇵🇭
-            </h2>
             <p className="mb-5">
-              As a recipient of the 2022{" "}
-              <a
-                href="https://lesbianswhotech.org/codingscholarship/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Edie Windsor Scholarship
-              </a>{" "}
-              through Lesbians Who Tech, I have progressed from Education to
-              Software Engineering. I am a graduate of The Grace Hopper Program
-              @ Fullstack Academy in New York, NY.
+              I enjoy creating web tools that are useful and responsive to the
+              heightened demands placed on creators, workers, and learners.
               <br />
               <br />
-              My aim as a software engineer is to help users reach their ideas
-              by creating web tools that are useful and streamlined--all while
-              being responsive to the heightened demands placed on creators,
-              workers, and learners as a result of the pandemic.
-              <br />
-              <br />
-              I specialize in the PERN and FERN tech stacks, but am dedicated to
-              learning new technology as curiosity drives me.
+              I specialize in the PERN, FERN, and MERN tech stacks, but am
+              dedicated to learning new technology as curiosity drives me.
+              Although I have fullstack experience, I have a preference for
+              working on the backend.
               <hr />
               <strong>💻 Frontend:</strong> ReactJS, React Native, HTML, CSS,
               Javascript, Bootstrap
               <br />
               <br />
-              <strong>🔐 Backend:</strong> Firebase, MongoDB, PostgreSQL,
-              Express, Node, Redux, Heroku, Sequelize
+              <strong>🔐 Backend:</strong> TypeScript, Firebase, MongoDB,
+              PostgreSQL, Express, Node, Heroku, Jest
               <br />
               <br />
               <a
                 className="m-1"
-                href="https://drive.google.com/file/d/1A9u45Voij_mqYVraP6NOrf9iN2s_x_jy/view?usp=share_link"
+                href="https://drive.google.com/file/d/1Hvexoywi7lf4n3PriDPUGvrBk6FXngkC/view?usp=sharing"
                 alt="Download/View Resume"
                 target="_blank"
                 rel="noreferrer"
@@ -82,7 +64,7 @@ function Home() {
                 <button>Contact</button>
               </a>
               <Link to="/about" title="About">
-                <button className="m-1">Skills + Work History</button>
+                <button className="m-1">Skills + Work</button>
               </Link>
               <Link to="/work" title="Work">
                 <button className="m-1">Projects</button>

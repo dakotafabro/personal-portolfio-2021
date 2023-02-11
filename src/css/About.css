@@ -27,6 +27,10 @@ img.professional-photo {
   padding: 0px 10px;
 }
 
+.about.near-top {
+  margin-top: 7% !important;
+}
+
 @media (max-width: 576px) {
   h2 {
     text-align: center;

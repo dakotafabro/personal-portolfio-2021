@@ -6,8 +6,8 @@ img.headshot {
   object-position: left;
 }
 
-.near-top {
-  margin-top: 125px !important;
+.home.near-top {
+  margin-top: 13% !important;
 }
 
 @media (max-width: 576px) {
@@ -48,5 +48,9 @@ img.headshot {
     align-items: center;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
+  }
+
+  .near-top {
+    margin-top: 30% !important;
   }
 }
