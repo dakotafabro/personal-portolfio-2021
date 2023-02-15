@@ -48,12 +48,12 @@ function Home() {
               <br />
               <a
                 className="m-1"
-                href="https://drive.google.com/file/d/1Hvexoywi7lf4n3PriDPUGvrBk6FXngkC/view?usp=sharing"
+                href="https://docs.google.com/document/d/10OzRC8XUPBYPkZ7aDYQRRWllpPj3O6pSpGE0Seh6fAY/edit?usp=sharing"
                 alt="Download/View Resume"
                 target="_blank"
                 rel="noreferrer"
               >
-                <button className="download-resume">Download Resume</button>
+                <button className="download-resume">View Resume</button>
               </a>
               <a
                 href="https://dot.cards/dakotafabro"
