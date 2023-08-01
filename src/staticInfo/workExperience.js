@@ -60,56 +60,6 @@ export const workExperience = [
     buttonLink: "https://self-care-assistant.netlify.app/",
     year: 2022,
   },
-  // {
-  //   id: "workitem5",
-  //   title: "Guessing Game - Frontend - VanillaJS",
-  //   description:
-  //     "Can you guess the number? Project was built using JavaScript, HTML, CSS, and Bootstrap. Website built during Fullstack Bootcamp.",
-  //   image: "https://i.imgur.com/3M9rwrq.png",
-  //   buttonText: "Take a Guess",
-  //   buttonLink: "https://df-guessinggame.netlify.app/",
-  //   year: 2022,
-  // },
-  // {
-  //   id: "workitem4",
-  //   title: "Dictionary Search Engine - ReactJS",
-  //   description:
-  //     "This dictionary utilizes Pexel's extraordinary photo API along with Free Dictionary's API to create a fully functional dictionary search engine. Built during my time in SheCodes.",
-  //   image: "https://i.imgur.com/XrPu5Dm.png",
-  //   buttonText: "See Dictionary App",
-  //   buttonLink: "https://dfabro-dictionary-react-app.netlify.app/",
-  //   year: 2021,
-  // },
-  // {
-  //   id: "workitem3",
-  //   title: "Note Taking Application - ReactJS",
-  //   description:
-  //     "In addition to Dark Mode toggling capabilities, this app utilizes local storage to create a fully functional note-taking app. Built out of curiosity",
-  //   image: "https://i.imgur.com/JKB9hRb.png",
-  //   buttonText: "Take Notes Here",
-  //   buttonLink: "https://note-taking-app-dakotafabro.netlify.app/",
-  //   year: 2021,
-  // },
-  // {
-  //   id: "workitem2",
-  //   title: "Weather Application - ReactJS",
-  //   description:
-  //     "This most recent project that pays homage to my first coding project below. Weather App built with ReactJS, Bootstrap, and API Integration. Built during my time in SheCodes.",
-  //   image: "https://i.imgur.com/ARy1kSR.png",
-  //   buttonText: "Check The Weather",
-  //   buttonLink: "https://dfabro-react-weather-app-new.netlify.app/",
-  //   year: 2021,
-  // },
-  // {
-  //   id: "workitem1",
-  //   title: "Weather Application - Vanilla JS",
-  //   description:
-  //     "This project was one of my earliest front-end projects. Project built with HTML, CSS, Vanilla JS, Bootstrap, and API Integration. Built during my time in SheCodes.",
-  //   image: "https://i.imgur.com/MzLMjDl.png",
-  //   buttonText: "Check The Weather",
-  //   buttonLink: "https://weather-app-dfabro-shecodes.netlify.app/",
-  //   year: 2021,
-  // },
   {
     id: "workitem0",
     title: "Hup Hup",

@@ -24,13 +24,14 @@ function Home() {
                 rel="noreferrer"
               >
                 <em>
-                  <small>(they/she)</small>
+                  <small>(they/them)</small>
                 </em>
               </a>
             </h1>
             <p className="mb-5">
               I enjoy creating web tools that are useful and responsive to the
-              heightened demands placed on creators, workers, and learners.
+              heightened demands placed on organizers, creators, workers, and
+              learners.
               <br />
               <br />
               I specialize in the PERN, FERN, and MERN tech stacks, but am
@@ -48,7 +49,7 @@ function Home() {
               <br />
               <a
                 className="m-1"
-                href="https://docs.google.com/document/d/10OzRC8XUPBYPkZ7aDYQRRWllpPj3O6pSpGE0Seh6fAY/edit?usp=sharing"
+                href="https://drive.google.com/file/d/1XdEzMPjcyjn96KvNQ_ipfqofNVA5P-JH/view?usp=sharing"
                 alt="Download/View Resume"
                 target="_blank"
                 rel="noreferrer"

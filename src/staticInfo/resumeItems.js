@@ -1,5 +1,47 @@
 export const resumeItems = [
   {
+    title: "Program Manager",
+    org: "STEAM:CODERS",
+    logo: "https://i.imgur.com/gu4dC6u.png",
+    date: "2023 to Present",
+    current: true,
+    location: "Pasadena, CA",
+    skills: [
+      "Team Leadership",
+      "Teamwork",
+      "Public Speaking",
+      "Time Management",
+    ],
+    duties: [
+      "Currently developing the internship program, instructional staff professional development series, program curricula, and community outreach partnerships",
+      "Professionally develop and manage 13 instructional staff members to ensure high quality instructional delivery and content development",
+      "Manage and evaluate STEAM classes through allocating and organizing staff, scheduling and training",
+      "Assist instructors in developing effective STEAM curriculum",
+      "Liaise with staff and organizational partners to ensure streamlined communication between all key program groups",
+    ],
+  },
+  {
+    title: "Learning Instructor",
+    org: "LinkedIn Learning",
+    logo: "https://i.imgur.com/7HDnUum.png",
+    date: "2022 to Present",
+    current: true,
+    location: "Carpinteria, CA",
+    skills: [
+      "Back-End Development",
+      "TypeScript",
+      "Node.js",
+      "Express",
+      "Project Management",
+    ],
+    duties: [
+      "Wireframe, design, build, and deploy sites based on client needs and pain points using frontend technologies such as ReactJS, HTML, JS, CSS, and CSS libraries",
+      "Ensure security, maintainability, and cloud backups using backend technologies such as Node.js, Express.js, Firebase, and/or PostgreSQL depending on client needs",
+      "Maintain positive working relationships with clientele in need of frontend, backend, and fullstack web development services",
+      "Ensure transparency of workflow by logging working hours, providing clients with frequent updates, and fostering a client/contractor relationship that creates an organic and collaborative design process",
+    ],
+  },
+  {
     title: "Fullstack Web Developer",
     org: "Dakota Fabro Dev - Freelance",
     logo: "https://i.imgur.com/lW20ViD.png",
